@@ -1,0 +1,37 @@
+HETATM    1  CA1 BAF A 256      45.360  22.513  34.020  0.50 15.36      E    C  
+HETATM    2  CA2 BAF A 256      46.003  24.323  30.682  0.50 18.33      E    C  
+HETATM    3  CB1 BAF A 256      46.528  21.711  34.656  0.50 15.51      E    C  
+HETATM    4  CB2 BAF A 256      46.684  25.565  31.202  0.50 16.40      E    C  
+HETATM    5  C1  BAF A 256      44.857  23.803  36.119  0.50 14.86      E    C  
+HETATM    6  N1  BAF A 256      45.998  23.378  33.009  0.50 15.16      E    N  
+HETATM    7  O1  BAF A 256      45.686  24.621  35.872  0.50 17.05      E    O  
+HETATM    8  C2  BAF A 256      45.412  23.455  31.815  0.50 16.89      E    C  
+HETATM    9  N2  BAF A 256      45.114  24.784  29.623  0.50 18.29      E    N  
+HETATM   10  O2  BAF A 256      44.425  22.826  31.562  0.50 17.72      E    O  
+HETATM   11  C3  BAF A 256      45.707  24.764  28.408  0.50 19.64      E    C  
+HETATM   12  N3  BAF A 256      44.418  23.030  35.058  0.50 14.32      E    N  
+HETATM   13  O3  BAF A 256      46.820  24.343  28.250  0.50 22.20      E    O  
+HETATM   14  C4  BAF A 256      44.109  25.129  26.466  0.50 20.04      E    C  
+HETATM   15  O4  BAF A 256      45.193  25.582  27.311  0.50 20.02      E    O  
+HETATM   16  C41 BAF A 256      43.902  23.599  26.454  0.50 20.87      E    C  
+HETATM   17  C42 BAF A 256      42.810  25.787  26.937  0.50 20.45      E    C  
+HETATM   18  C43 BAF A 256      44.460  25.558  25.047  0.50 20.48      E    C  
+CONECT    1    3    6   12
+CONECT    2    4    9    8
+CONECT    3    1
+CONECT    4    2
+CONECT    5    7   12
+CONECT    6    1    8
+CONECT    7    5
+CONECT    8    6    2   10
+CONECT    9    2   11
+CONECT   10    8
+CONECT   11    9   13   15
+CONECT   12    1    5
+CONECT   13   11
+CONECT   14   16   17   18   15
+CONECT   15   11   14
+CONECT   16   14
+CONECT   17   14
+CONECT   18   14
+END

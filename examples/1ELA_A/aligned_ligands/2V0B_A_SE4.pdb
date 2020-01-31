@@ -1,0 +1,11 @@
+HETATM    1 SE   SE4 A1242      43.963  21.634  61.069  1.00 13.16      C   SE  
+HETATM    2  O1  SE4 A1242      42.582  20.903  60.195  1.00 22.34      C    O  
+HETATM    3  O2  SE4 A1242      45.034  20.556  61.290  1.00 25.32      C    O  
+HETATM    4  O3  SE4 A1242      43.509  22.202  62.453  1.00 21.14      C    O  
+HETATM    5  O4  SE4 A1242      44.676  22.908  60.103  1.00 17.87      C    O  
+CONECT    1    2    3    4    5
+CONECT    2    1
+CONECT    3    1
+CONECT    4    1
+CONECT    5    1
+END

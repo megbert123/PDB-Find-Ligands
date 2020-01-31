@@ -1,0 +1,123 @@
+HETATM    1  N  ALBM A 301       9.315   3.873  -8.667  0.92 33.73      B    N  
+HETATM    2  C  ALBM A 301       7.396   9.765  -6.321  0.92 36.48      B    C  
+HETATM    3  O  ALBM A 301       6.691  -3.931 -12.936  0.92 37.28      B    O  
+HETATM    4 CL  ALBM A 301      10.979   2.966  -1.514  0.92 43.24      B   CL  
+HETATM    5  C1 ALBM A 301       7.527   8.314  -6.786  0.92 39.47      B    C  
+HETATM    6  N1 ALBM A 301       8.223   1.395  -9.618  0.92 31.50      B    N  
+HETATM    7  O1 ALBM A 301       4.345  -5.353 -13.427  0.92 33.08      B    O  
+HETATM    8  C2 ALBM A 301       8.468   8.234  -7.992  0.92 42.69      B    C  
+HETATM    9  N2 ALBM A 301       4.808  -3.642 -11.697  0.92 32.83      B    N  
+HETATM   10  O2 ALBM A 301       2.853  -5.134 -11.465  0.92 31.12      B    O  
+HETATM   11  C3 ALBM A 301       8.673   6.810  -8.505  0.92 38.18      B    C  
+HETATM   12  N3 ALBM A 301       7.587  -8.910  -8.999  0.92 28.29      B    N  
+HETATM   13  O3 ALBM A 301      10.818 -12.320  -7.049  0.92 48.92      B    O  
+HETATM   14  C4 ALBM A 301       9.143   5.944  -7.368  0.92 36.06      B    C  
+HETATM   15  N4 ALBM A 301       5.218  -7.704  -7.745  0.92 28.92      B    N  
+HETATM   16  O4 ALBM A 301       5.868  -8.499  -7.085  0.92 26.15      B    O  
+HETATM   17  C5 ALBM A 301       8.893   6.254  -6.075  0.92 36.15      B    C  
+HETATM   18  N5 ALBM A 301      10.499  -5.813  -9.947  0.92 26.40      B    N  
+HETATM   19  O5 ALBM A 301       4.240  -7.112  -7.313  0.92 29.31      B    O  
+HETATM   20  C6 ALBM A 301       8.117   7.462  -5.659  0.92 32.11      B    C  
+HETATM   21  N6 ALBM A 301       9.891  -6.798  -7.809  0.92 28.60      B    N  
+HETATM   22  O6 ALBM A 301       8.863  -2.971 -11.556  0.92 26.59      B    O  
+HETATM   23  C7 ALBM A 301       9.420   5.429  -4.956  0.92 30.44      B    C  
+HETATM   24  C8 ALBM A 301       8.643   4.410  -4.421  0.92 30.17      B    C  
+HETATM   25  C9 ALBM A 301       9.127   3.656  -3.368  0.92 27.82      B    C  
+HETATM   26  C10ALBM A 301      10.379   3.913  -2.846  0.92 32.88      B    C  
+HETATM   27  C11ALBM A 301      11.153   4.924  -3.379  0.92 34.49      B    C  
+HETATM   28  C12ALBM A 301      10.678   5.685  -4.432  0.92 33.19      B    C  
+HETATM   29  C13ALBM A 301       9.967   4.725  -7.672  0.92 35.80      B    C  
+HETATM   30  C14ALBM A 301       8.027   3.364  -8.173  0.92 30.84      B    C  
+HETATM   31  C15ALBM A 301       7.349   2.503  -9.227  0.92 30.80      B    C  
+HETATM   32  C16ALBM A 301       9.526   1.879 -10.079  0.92 25.42      B    C  
+HETATM   33  C17ALBM A 301      10.174   2.735  -9.012  0.92 28.72      B    C  
+HETATM   34  C18ALBM A 301       7.706   0.267 -10.246  0.92 26.27      B    C  
+HETATM   35  C19ALBM A 301       8.542  -0.787 -10.610  0.92 22.39      B    C  
+HETATM   36  C20ALBM A 301       8.027  -1.917 -11.209  0.92 21.97      B    C  
+HETATM   37  C21ALBM A 301       6.666  -2.046 -11.480  0.92 22.07      B    C  
+HETATM   38  C22ALBM A 301       5.834  -0.986 -11.121  0.92 22.32      B    C  
+HETATM   39  C23ALBM A 301       6.343   0.151 -10.514  0.92 27.73      B    C  
+HETATM   40  C24ALBM A 301       6.067  -3.258 -12.121  0.92 33.84      B    C  
+HETATM   41  C25ALBM A 301       5.163  -6.271 -11.141  0.92 29.09      B    C  
+HETATM   42  C26ALBM A 301       4.825  -6.582  -9.834  0.92 23.87      B    C  
+HETATM   43  C27ALBM A 301       5.626  -7.447  -9.124  0.92 21.46      B    C  
+HETATM   44  C28ALBM A 301       6.787  -8.040  -9.694  0.92 26.40      B    C  
+HETATM   45  C29ALBM A 301       7.077  -7.697 -11.015  0.92 26.93      B    C  
+HETATM   46  C30ALBM A 301       6.282  -6.827 -11.737  0.92 31.69      B    C  
+HETATM   47  C31ALBM A 301       8.780  -9.536  -9.545  0.92 32.46      B    C  
+HETATM   48  C32ALBM A 301       9.081 -10.798  -8.757  0.92 34.73      B    C  
+HETATM   49  C33ALBM A 301      10.327 -11.505  -9.273  0.92 41.95      B    C  
+HETATM   50  C34ALBM A 301      10.630 -12.702  -8.407  0.92 45.71      B    C  
+HETATM   51  C35ALBM A 301       9.625 -11.742  -6.532  0.92 40.83      B    C  
+HETATM   52  C36ALBM A 301       9.264 -10.484  -7.279  0.92 37.50      B    C  
+HETATM   53  C37ALBM A 301       9.119  -3.971 -10.618  0.92 28.46      B    C  
+HETATM   54  C38ALBM A 301      10.175  -4.846 -10.816  0.92 26.89      B    C  
+HETATM   55  C39ALBM A 301       9.744  -5.917  -8.840  0.92 28.94      B    C  
+HETATM   56  C40ALBM A 301       8.634  -5.079  -8.550  0.92 24.39      B    C  
+HETATM   57  C41ALBM A 301       8.333  -4.083  -9.481  0.92 21.65      B    C  
+HETATM   58  C42ALBM A 301       8.128  -5.512  -7.285  0.92 27.38      B    C  
+HETATM   59  C43ALBM A 301       8.913  -6.544  -6.875  0.92 25.30      B    C  
+HETATM   60  C44ALBM A 301       6.145   7.784  -7.167  0.92 39.99      B    C  
+HETATM   61  S  ALBM A 301       4.169  -5.116 -12.025  0.92 29.80      B    S  
+CONECT    1   29   30   33
+CONECT    2    5
+CONECT    3   40
+CONECT    4   26
+CONECT    5    2    8   20   60
+CONECT    6   31   32   34
+CONECT    7   61
+CONECT    8    5   11
+CONECT    9   61   40
+CONECT   10   61
+CONECT   11    8   14
+CONECT   12   44   47
+CONECT   13   50   51
+CONECT   14   11   17   29
+CONECT   15   16   19   43
+CONECT   16   15
+CONECT   17   14   20   23
+CONECT   18   54   55
+CONECT   19   15
+CONECT   20    5   17
+CONECT   21   55   59
+CONECT   22   36   53
+CONECT   23   17   24   28
+CONECT   24   23   25
+CONECT   25   24   26
+CONECT   26    4   25   27
+CONECT   27   26   28
+CONECT   28   27   23
+CONECT   29    1   14
+CONECT   30    1   31
+CONECT   31   30    6
+CONECT   32    6   33
+CONECT   33   32    1
+CONECT   34    6   35   39
+CONECT   35   34   36
+CONECT   36   35   22   37
+CONECT   37   36   38   40
+CONECT   38   37   39
+CONECT   39   38   34
+CONECT   40    3    9   37
+CONECT   41   42   46   61
+CONECT   42   41   43
+CONECT   43   42   15   44
+CONECT   44   12   43   45
+CONECT   45   44   46
+CONECT   46   41   45
+CONECT   47   12   48
+CONECT   48   47   49   52
+CONECT   49   48   50
+CONECT   50   49   13
+CONECT   51   13   52
+CONECT   52   48   51
+CONECT   53   22   54   57
+CONECT   54   53   18
+CONECT   55   18   21   56
+CONECT   56   55   57   58
+CONECT   57   53   56
+CONECT   58   56   59
+CONECT   59   58   21
+CONECT   60    5
+CONECT   61    7    9   10   41
+END

@@ -1,0 +1,57 @@
+HETATM    1  O1  2PE A 302      -5.924 -11.105  18.078  1.00 57.07      C    O  
+HETATM    2  C2  2PE A 302      -5.471  -9.778  18.080  1.00 55.97      C    C  
+HETATM    3  C3  2PE A 302      -5.521  -9.162  16.717  1.00 54.85      C    C  
+HETATM    4  O4  2PE A 302      -4.744  -7.968  16.703  1.00 57.29      C    O  
+HETATM    5  C5  2PE A 302      -3.733  -7.957  15.696  1.00 55.74      C    C  
+HETATM    6  C6  2PE A 302      -2.804  -6.816  15.952  1.00 53.94      C    C  
+HETATM    7  O7  2PE A 302      -2.538  -6.712  17.356  1.00 52.62      C    O  
+HETATM    8  C8  2PE A 302      -1.162  -6.615  17.679  1.00 50.03      C    C  
+HETATM    9  C9  2PE A 302      -0.766  -5.160  17.892  1.00 53.79      C    C  
+HETATM   10  O10 2PE A 302      -0.860  -4.371  16.698  1.00 51.88      C    O  
+HETATM   11  C11 2PE A 302      -0.506  -2.996  16.882  1.00 48.34      C    C  
+HETATM   12  C12 2PE A 302       0.238  -2.512  15.649  1.00 46.57      C    C  
+HETATM   13  O13 2PE A 302      -0.556  -2.664  14.462  1.00 40.50      C    O  
+HETATM   14  C14 2PE A 302      -0.649  -1.429  13.744  1.00 44.06      C    C  
+HETATM   15  C15 2PE A 302      -1.909  -1.372  12.976  1.00 50.00      C    C  
+HETATM   16  O16 2PE A 302      -2.450  -0.076  12.866  1.00 53.38      C    O  
+HETATM   17  C17 2PE A 302      -3.744   0.068  13.434  1.00 54.17      C    C  
+HETATM   18  C18 2PE A 302      -3.616   0.138  14.935  1.00 57.47      C    C  
+HETATM   19  O19 2PE A 302      -4.835   0.507  15.593  1.00 54.84      C    O  
+HETATM   20  C20 2PE A 302      -4.671   1.556  16.521  1.00 47.10      C    C  
+HETATM   21  C21 2PE A 302      -3.280   1.571  17.078  1.00 39.78      C    C  
+HETATM   22  O22 2PE A 302      -2.630   2.792  16.741  1.00 38.90      C    O  
+HETATM   23  C23 2PE A 302      -2.174   3.520  17.838  1.00 42.21      C    C  
+HETATM   24  C24 2PE A 302      -1.154   4.498  17.442  1.00 41.92      C    C  
+HETATM   25  O25 2PE A 302      -1.604   5.211  16.297  1.00 46.78      C    O  
+HETATM   26  C26 2PE A 302      -2.804   5.933  16.526  1.00 50.91      C    C  
+HETATM   27  C27 2PE A 302      -2.593   7.372  16.201  1.00 56.03      C    C  
+HETATM   28  O28 2PE A 302      -3.809   8.101  16.320  1.00 60.93      C    O  
+CONECT    1    2
+CONECT    2    1    3
+CONECT    3    2    4
+CONECT    4    3    5
+CONECT    5    4    6
+CONECT    6    5    7
+CONECT    7    6    8
+CONECT    8    7    9
+CONECT    9    8   10
+CONECT   10    9   11
+CONECT   11   10   12
+CONECT   12   11   13
+CONECT   13   12   14
+CONECT   14   13   15
+CONECT   15   14   16
+CONECT   16   15   17
+CONECT   17   16   18
+CONECT   18   17   19
+CONECT   19   18   20
+CONECT   20   19   21
+CONECT   21   20   22
+CONECT   22   21   23
+CONECT   23   22   24
+CONECT   24   23   25
+CONECT   25   24   26
+CONECT   26   25   27
+CONECT   27   26   28
+CONECT   28   27
+END

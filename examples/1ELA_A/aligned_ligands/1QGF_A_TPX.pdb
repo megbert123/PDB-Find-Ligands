@@ -1,0 +1,43 @@
+HETATM    1  N   TPX A 280      43.976  21.206  36.989  1.00 24.51      D    N  
+HETATM    2  CA  TPX A 280      41.795  23.344  38.019  1.00 11.25      D    C  
+HETATM    3  C   TPX A 280      43.207  23.914  37.941  1.00 14.99      D    C  
+HETATM    4  O   TPX A 280      43.573  24.666  37.081  1.00 17.25      D    O  
+HETATM    5  OA  TPX A 280      39.641  21.410  35.974  1.00 13.62      D    O  
+HETATM    6  CB  TPX A 280      41.618  22.228  37.054  1.00 13.56      D    C  
+HETATM    7  OB  TPX A 280      39.575  21.622  38.154  1.00 16.18      D    O  
+HETATM    8  CG1 TPX A 280      45.723  19.394  34.635  0.00 12.15      D    C  
+HETATM    9  CG2 TPX A 280      43.405  19.548  33.938  0.00 12.15      D    C  
+HETATM   10  CD  TPX A 280      40.823  24.451  37.777  1.00 10.69      D    C  
+HETATM   11  OD  TPX A 280      45.711  22.086  35.661  1.00 25.44      D    O  
+HETATM   12  CE  TPX A 280      41.099  25.700  38.600  1.00 12.89      D    C  
+HETATM   13  CH1 TPX A 280      45.823  18.175  33.996  0.00 12.16      D    C  
+HETATM   14  CH2 TPX A 280      43.522  18.330  33.303  0.00 12.16      D    C  
+HETATM   15  CI  TPX A 280      44.727  17.651  33.336  0.00 12.16      D    C  
+HETATM   16  CJ  TPX A 280      44.846  16.321  32.639  0.00 12.14      D    C  
+HETATM   17  CK  TPX A 280      42.564  21.113  37.240  1.00 19.56      D    C  
+HETATM   18  CC  TPX A 280      40.196  21.726  37.074  1.00 14.21      D    C  
+HETATM   19  CF  TPX A 280      44.510  20.053  34.591  0.50 12.08      D    C  
+HETATM   20  OC  TPX A 280      43.599  22.442  34.464  1.00 41.61      D    O  
+HETATM   21  S   TPX A 280      44.364  21.632  35.416  1.00 26.14      D    S  
+CONECT    1   21   17
+CONECT    2    6   10    3
+CONECT    3    2    4
+CONECT    4    3
+CONECT    5   18
+CONECT    6    2   17   18
+CONECT    7   18
+CONECT    8   13   19
+CONECT    9   14   19
+CONECT   10    2   12
+CONECT   11   21
+CONECT   12   10
+CONECT   13    8   15
+CONECT   14    9   15
+CONECT   15   13   14   16
+CONECT   16   15
+CONECT   17    6    1
+CONECT   18    6    5    7
+CONECT   19    8    9   21
+CONECT   20   21
+CONECT   21    1   11   20   19
+END

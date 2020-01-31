@@ -1,0 +1,39 @@
+HETATM    1 CL   GIS E 269      41.221  20.349  38.288  1.00 21.19      D   CL  
+HETATM    2  C1  GIS E 269      45.337  22.180  38.708  1.00 22.47      D    C  
+HETATM    3  N1  GIS E 269      47.042  19.245  35.343  1.00 17.14      D    N  
+HETATM    4  O1  GIS E 269      46.280  22.008  39.501  1.00 23.27      D    O  
+HETATM    5  C2  GIS E 269      45.076  21.243  37.717  1.00 19.97      D    C  
+HETATM    6  N2  GIS E 269      49.172  19.563  34.305  1.00 19.26      D    N  
+HETATM    7  O2  GIS E 269      42.449  23.110  36.323  1.00 19.88      D    O  
+HETATM    8  C3  GIS E 269      46.156  20.659  37.110  1.00 13.87      D    C  
+HETATM    9  N3  GIS E 269      47.769  21.358  34.643  1.00 19.82      D    N  
+HETATM   10  O3  GIS E 269      41.268  23.488  38.252  1.00 19.72      D    O  
+HETATM   11  C4  GIS E 269      45.957  19.762  36.041  1.00 21.93      D    C  
+HETATM   12  C5  GIS E 269      48.062  20.060  34.923  1.00 20.68      D    C  
+HETATM   13  C6  GIS E 269      44.654  19.391  35.689  1.00 17.99      D    C  
+HETATM   14  C7  GIS E 269      43.544  19.961  36.357  1.00 23.81      D    C  
+HETATM   15  C8  GIS E 269      43.761  20.902  37.349  1.00 20.18      D    C  
+HETATM   16  C9  GIS E 269      42.532  21.448  38.033  1.00 10.36      D    C  
+HETATM   17  C10 GIS E 269      42.015  22.741  37.426  1.00 20.67      D    C  
+HETATM   18  C11 GIS E 269      40.763  24.733  37.764  1.00 10.72      D    C  
+HETATM   19  C12 GIS E 269      40.596  25.680  38.927  1.00 17.51      D    C  
+CONECT    1   16
+CONECT    2    4    5
+CONECT    3   12   11
+CONECT    4    2
+CONECT    5    2    8   15
+CONECT    6   12
+CONECT    7   17
+CONECT    8    5   11
+CONECT    9   12
+CONECT   10   18   17
+CONECT   11    8    3   13
+CONECT   12    3    6    9
+CONECT   13   11   14
+CONECT   14   13   15
+CONECT   15    5   14   16
+CONECT   16   15    1   17
+CONECT   17   16    7   10
+CONECT   18   10   19
+CONECT   19   18
+END

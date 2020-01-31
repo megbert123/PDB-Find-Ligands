@@ -1,0 +1,57 @@
+HETATM    1  C1  PEG A 302      10.601   3.318 -14.017  1.00 39.12      C    C  
+HETATM    2  O1  PEG A 302      10.801   4.425 -14.879  1.00 46.90      C    O  
+HETATM    3  C2  PEG A 302      10.038   2.147 -14.759  1.00 37.29      C    C  
+HETATM    4  O2  PEG A 302       9.429   1.251 -13.841  1.00 39.21      C    O  
+HETATM    5  C3  PEG A 302       9.381  -0.089 -14.311  1.00 43.51      C    C  
+HETATM    6  C4  PEG A 302       8.304  -0.226 -15.345  1.00 51.66      C    C  
+HETATM    7  O4  PEG A 302       7.012  -0.025 -14.801  1.00 56.11      C    O  
+HETATM    8  C1  PEG A 303      11.670  -3.891 -16.850  1.00 39.12      D    C  
+HETATM    9  O1  PEG A 303      12.358  -5.057 -17.244  1.00 42.80      D    O  
+HETATM   10  C2  PEG A 303      12.332  -2.640 -17.342  1.00 57.25      D    C  
+HETATM   11  O2  PEG A 303      11.748  -2.244 -18.576  1.00 65.18      D    O  
+HETATM   12  C3  PEG A 303      10.332  -2.346 -18.578  1.00 62.14      D    C  
+HETATM   13  C4  PEG A 303       9.721  -0.985 -18.504  1.00 59.28      D    C  
+HETATM   14  O4  PEG A 303       8.309  -1.068 -18.411  1.00 59.58      D    O  
+HETATM   15  C1  PEG A 304      -4.692   7.947   5.467  1.00 58.77      E    C  
+HETATM   16  O1  PEG A 304      -5.823   7.534   6.215  1.00 61.56      E    O  
+HETATM   17  C2  PEG A 304      -4.105   6.828   4.665  1.00 52.45      E    C  
+HETATM   18  O2  PEG A 304      -4.151   7.153   3.281  1.00 62.40      E    O  
+HETATM   19  C3  PEG A 304      -2.878   7.461   2.729  1.00 58.83      E    C  
+HETATM   20  C4  PEG A 304      -2.824   8.908   2.358  1.00 54.55      E    C  
+HETATM   21  O4  PEG A 304      -2.748   9.114   0.960  1.00 50.24      E    O  
+HETATM   22  C1  PEG A 305      -5.622 -10.700  18.375  1.00 54.92      F    C  
+HETATM   23  O1  PEG A 305      -6.013 -12.061  18.298  1.00 55.10      F    O  
+HETATM   24  C2  PEG A 305      -5.817  -9.993  17.068  1.00 54.07      F    C  
+HETATM   25  O2  PEG A 305      -5.378  -8.645  17.183  1.00 59.52      F    O  
+HETATM   26  C3  PEG A 305      -5.097  -8.056  15.921  1.00 60.13      F    C  
+HETATM   27  C4  PEG A 305      -3.632  -7.759  15.810  1.00 58.45      F    C  
+HETATM   28  O4  PEG A 305      -3.310  -6.480  16.331  1.00 59.31      F    O  
+CONECT    1    2    3
+CONECT    2    1
+CONECT    3    1    4
+CONECT    4    3    5
+CONECT    5    4    6
+CONECT    6    5    7
+CONECT    7    6
+CONECT    8    9   10
+CONECT    9    8
+CONECT   10    8   11
+CONECT   11   10   12
+CONECT   12   11   13
+CONECT   13   12   14
+CONECT   14   13
+CONECT   15   16   17
+CONECT   16   15
+CONECT   17   15   18
+CONECT   18   17   19
+CONECT   19   18   20
+CONECT   20   19   21
+CONECT   21   20
+CONECT   22   23   24
+CONECT   23   22
+CONECT   24   22   25
+CONECT   25   24   26
+CONECT   26   25   27
+CONECT   27   26   28
+CONECT   28   27
+END

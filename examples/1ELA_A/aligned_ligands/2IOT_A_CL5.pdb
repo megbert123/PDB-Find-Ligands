@@ -1,0 +1,19 @@
+HETATM    1  C3  CL5 A 801      45.398  20.615  35.005  0.50 13.03      C    C  
+HETATM    2  N4  CL5 A 801      44.928  21.583  35.996  0.50 10.77      C    N  
+HETATM    3  C5  CL5 A 801      43.620  22.200  35.780  0.50 10.74      C    C  
+HETATM    4  C6  CL5 A 801      43.178  23.341  36.654  0.50 12.13      C    C  
+HETATM    5  C7  CL5 A 801      43.141  22.952  38.103  0.50 11.41      C    C  
+HETATM    6  O8  CL5 A 801      42.430  22.017  38.478  0.50 13.19      C    O  
+HETATM    7  C12 CL5 A 801      46.883  20.420  35.129  0.50 13.03      C    C  
+HETATM    8  O13 CL5 A 801      47.636  21.275  34.623  0.50 15.10      C    O  
+HETATM    9  O14 CL5 A 801      47.296  19.419  35.741  0.50 14.17      C    O  
+CONECT    1    7    2
+CONECT    2    1    3
+CONECT    3    2    4
+CONECT    4    3    5
+CONECT    5    4    6
+CONECT    6    5
+CONECT    7    1    8    9
+CONECT    8    7
+CONECT    9    7
+END

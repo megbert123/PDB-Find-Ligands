@@ -1,0 +1,29 @@
+HETATM    1  C1  PEG C 302      -3.321   0.926  14.202  1.00 58.37      H    C  
+HETATM    2  O1  PEG C 302      -4.676   1.201  14.515  1.00 58.43      H    O  
+HETATM    3  C2  PEG C 302      -3.200  -0.050  13.072  1.00 56.81      H    C  
+HETATM    4  O2  PEG C 302      -1.831  -0.375  12.867  1.00 62.79      H    O  
+HETATM    5  C3  PEG C 302      -1.487  -1.665  13.353  1.00 55.89      H    C  
+HETATM    6  C4  PEG C 302      -0.881  -1.545  14.718  1.00 58.40      H    C  
+HETATM    7  O4  PEG C 302      -0.765  -2.806  15.353  1.00 58.51      H    O  
+HETATM    8  C1  PEG C 303      -7.884   1.541  15.232  1.00 63.90      I    C  
+HETATM    9  O1  PEG C 303      -8.732   2.175  16.175  1.00 62.38      I    O  
+HETATM   10  C2  PEG C 303      -8.367   0.165  14.895  1.00 68.97      I    C  
+HETATM   11  O2  PEG C 303      -7.638  -0.335  13.783  1.00 74.05      I    O  
+HETATM   12  C3  PEG C 303      -8.250  -0.008  12.544  1.00 72.28      I    C  
+HETATM   13  C4  PEG C 303      -7.243   0.636  11.642  1.00 70.86      I    C  
+HETATM   14  O4  PEG C 303      -7.861   1.215  10.506  1.00 69.68      I    O  
+CONECT    1    2    3
+CONECT    2    1
+CONECT    3    1    4
+CONECT    4    3    5
+CONECT    5    4    6
+CONECT    6    5    7
+CONECT    7    6
+CONECT    8    9   10
+CONECT    9    8
+CONECT   10    8   11
+CONECT   11   10   12
+CONECT   12   11   13
+CONECT   13   12   14
+CONECT   14   13
+END

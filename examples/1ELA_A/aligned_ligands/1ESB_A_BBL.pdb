@@ -1,0 +1,31 @@
+HETATM    1  N   BBL A 256      44.285  21.448  35.402  1.00 25.06      B    N  
+HETATM    2  CA  BBL A 256      45.122  22.478  35.925  1.00 16.12      B    C  
+HETATM    3  C   BBL A 256      42.948  21.341  35.534  1.00 32.46      B    C  
+HETATM    4  O   BBL A 256      42.220  22.158  36.119  1.00 36.48      B    O  
+HETATM    5  CB  BBL A 256      41.320  19.440  35.572  1.00 34.17      B    C  
+HETATM    6  CB2 BBL A 256      44.761  23.726  36.728  1.00 17.91      B    C  
+HETATM    7  CBZ BBL A 256      45.834  22.991  34.686  1.00 21.71      B    C  
+HETATM    8  CG  BBL A 256      41.590  19.318  37.084  1.00 37.92      B    C  
+HETATM    9  OG1 BBL A 256      45.185  24.668  36.121  1.00 19.99      B    O  
+HETATM   10  CD1 BBL A 256      40.986  20.170  38.013  1.00 36.05      B    C  
+HETATM   11  CD2 BBL A 256      42.551  18.414  37.534  1.00 39.28      B    C  
+HETATM   12  CE1 BBL A 256      41.327  20.128  39.343  1.00 36.22      B    C  
+HETATM   13  CE2 BBL A 256      42.892  18.374  38.868  1.00 38.87      B    C  
+HETATM   14  OEZ BBL A 256      42.393  20.096  34.906  1.00 33.52      B    O  
+HETATM   15  CZ  BBL A 256      42.283  19.235  39.769  1.00 38.04      B    C  
+CONECT    1    3    2
+CONECT    2    1    7    6
+CONECT    3    1    4   14
+CONECT    4    3
+CONECT    5    8   14
+CONECT    6    2    9
+CONECT    7    2
+CONECT    8    5   10   11
+CONECT    9    6
+CONECT   10    8   12
+CONECT   11    8   13
+CONECT   12   10   15
+CONECT   13   11   15
+CONECT   14    3    5
+CONECT   15   12   13
+END

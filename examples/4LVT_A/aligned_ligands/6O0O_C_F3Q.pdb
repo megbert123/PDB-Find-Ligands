@@ -1,0 +1,107 @@
+HETATM    1  C1  F3Q C 201       5.703   8.690  -8.164  1.00 58.94      D    C  
+HETATM    2  C2  F3Q C 201       4.631   8.391  -9.206  1.00 55.45      D    C  
+HETATM    3  C3  F3Q C 201       5.540   6.133  -9.755  1.00 55.92      D    C  
+HETATM    4  C4  F3Q C 201       5.126   7.476 -10.310  1.00 55.69      D    C  
+HETATM    5  C5  F3Q C 201       6.620   7.528  -7.941  1.00 66.39      D    C  
+HETATM    6  N6  F3Q C 201       6.519   6.357  -8.676  1.00 54.16      D    N  
+HETATM    7  C7  F3Q C 201       7.487   5.464  -8.259  1.00 43.81      D    C  
+HETATM    8  C8  F3Q C 201       8.206   6.069  -7.260  1.00 56.64      D    C  
+HETATM    9  C9  F3Q C 201       7.671   7.377  -7.045  1.00 64.97      D    C  
+HETATM   10  C10 F3Q C 201       8.117   8.438  -6.083  1.00 59.41      D    C  
+HETATM   11  O11 F3Q C 201       8.024   9.619  -6.388  1.00 60.11      D    O  
+HETATM   12  N12 F3Q C 201       8.653   8.102  -4.819  1.00 61.70      D    N  
+HETATM   13  C13 F3Q C 201       7.660   4.131  -8.864  1.00 38.99      D    C  
+HETATM   14  C14 F3Q C 201       6.708   3.132  -8.633  1.00 30.82      D    C  
+HETATM   15  C15 F3Q C 201       8.789   3.863  -9.660  1.00 45.12      D    C  
+HETATM   16  C16 F3Q C 201       8.037   1.624  -9.945  1.00 30.39      D    C  
+HETATM   17  C17 F3Q C 201       6.925   1.890  -9.186  1.00 28.05      D    C  
+HETATM   18  O18 F3Q C 201       6.139   0.764  -9.085  1.00 40.93      D    O  
+HETATM   19  C19 F3Q C 201       6.818  -0.247  -9.834  1.00 38.63      D    C  
+HETATM   20  O20 F3Q C 201       8.018   0.315 -10.371  1.00 34.68      D    O  
+HETATM   21  C21 F3Q C 201       9.760   4.962  -9.982  1.00 43.19      D    C  
+HETATM   22  N22 F3Q C 201      10.880   5.051  -9.251  1.00 55.74      D    N  
+HETATM   23  O23 F3Q C 201       9.518   5.751 -10.873  1.00 49.59      D    O  
+HETATM   24  C24 F3Q C 201      11.867   6.102  -9.516  1.00 56.95      D    C  
+HETATM   25  C25 F3Q C 201      12.025   6.976  -8.280  1.00 39.70      D    C  
+HETATM   26  C26 F3Q C 201      11.194   4.133  -8.153  1.00 62.01      D    C  
+HETATM   27  C27 F3Q C 201      11.952   4.786  -7.019  1.00 54.16      D    C  
+HETATM   28  C28 F3Q C 201      12.320   6.142  -7.059  1.00 56.61      D    C  
+HETATM   29  C29 F3Q C 201      13.008   6.689  -5.979  1.00 60.02      D    C  
+HETATM   30  C30 F3Q C 201      13.347   5.911  -4.887  1.00 60.36      D    C  
+HETATM   31  C31 F3Q C 201      13.000   4.581  -4.855  1.00 45.14      D    C  
+HETATM   32  C32 F3Q C 201      12.303   4.022  -5.910  1.00 45.95      D    C  
+HETATM   33  C33 F3Q C 201      13.188   5.514 -10.024  1.00 69.74      D    C  
+HETATM   34  C34 F3Q C 201       8.986   2.588 -10.200  1.00 29.86      D    C  
+HETATM   35  N35 F3Q C 201      13.547   6.039 -11.344  1.00 77.63      D    N  
+HETATM   36  C36 F3Q C 201      14.748   5.374 -11.853  1.00 80.72      D    C  
+HETATM   37  C37 F3Q C 201      15.093   5.903 -13.220  1.00 91.51      D    C  
+HETATM   38  O38 F3Q C 201      14.021   5.716 -14.140  1.00 98.47      D    O  
+HETATM   39  C39 F3Q C 201      12.850   6.365 -13.654  1.00 96.46      D    C  
+HETATM   40  C40 F3Q C 201      12.452   5.845 -12.298  1.00 85.93      D    C  
+HETATM   41  C41 F3Q C 201       8.635   6.760  -4.300  1.00 51.21      D    C  
+HETATM   42  C42 F3Q C 201       9.253   9.121  -4.001  1.00 64.79      D    C  
+HETATM   43  C43 F3Q C 201       9.814   6.032  -4.215  1.00 39.31      D    C  
+HETATM   44  C44 F3Q C 201       9.798   4.731  -3.744  1.00 38.61      D    C  
+HETATM   45  C45 F3Q C 201       8.601   4.153  -3.345  1.00 31.59      D    C  
+HETATM   46  C46 F3Q C 201       7.421   4.881  -3.424  1.00 27.66      D    C  
+HETATM   47  C47 F3Q C 201       7.439   6.180  -3.902  1.00 34.28      D    C  
+HETATM   48  C48 F3Q C 201      10.498   9.638  -4.339  1.00 70.06      D    C  
+HETATM   49  C49 F3Q C 201      11.066  10.624  -3.550  1.00 71.67      D    C  
+HETATM   50  C50 F3Q C 201      10.404  11.095  -2.434  1.00 63.28      D    C  
+HETATM   51  C51 F3Q C 201       9.167  10.581  -2.099  1.00 60.41      D    C  
+HETATM   52  C52 F3Q C 201       8.586   9.593  -2.878  1.00 64.59      D    C  
+HETATM   53  O53 F3Q C 201       8.584   2.873  -2.873  1.00 44.35      D    O  
+CONECT    1    2    5
+CONECT    2    1    4
+CONECT    3    4    6
+CONECT    4    2    3
+CONECT    5    1    6    9
+CONECT    6    3    5    7
+CONECT    7    6    8   13
+CONECT    8    7    9
+CONECT    9    5    8   10
+CONECT   10    9   11   12
+CONECT   11   10
+CONECT   12   10   41   42
+CONECT   13    7   14   15
+CONECT   14   13   17
+CONECT   15   13   21   34
+CONECT   16   17   20   34
+CONECT   17   14   16   18
+CONECT   18   17   19
+CONECT   19   18   20
+CONECT   20   16   19
+CONECT   21   15   22   23
+CONECT   22   21   24   26
+CONECT   23   21
+CONECT   24   22   25   33
+CONECT   25   24   28
+CONECT   26   22   27
+CONECT   27   26   28   32
+CONECT   28   25   27   29
+CONECT   29   28   30
+CONECT   30   29   31
+CONECT   31   30   32
+CONECT   32   27   31
+CONECT   33   24   35
+CONECT   34   15   16
+CONECT   35   33   36   40
+CONECT   36   35   37
+CONECT   37   36   38
+CONECT   38   37   39
+CONECT   39   38   40
+CONECT   40   35   39
+CONECT   41   12   43   47
+CONECT   42   12   48   52
+CONECT   43   41   44
+CONECT   44   43   45
+CONECT   45   44   46   53
+CONECT   46   45   47
+CONECT   47   41   46
+CONECT   48   42   49
+CONECT   49   48   50
+CONECT   50   49   51
+CONECT   51   50   52
+CONECT   52   42   51
+CONECT   53   45
+END

@@ -1,0 +1,59 @@
+HETATM    1  N   0QN E 256      41.160  22.266  38.095  1.00 47.97      B    N  
+HETATM    2  CA  0QN E 256      40.874  21.077  37.338  1.00 46.42      B    C  
+HETATM    3  CA1 0QN E 256      37.352  20.400  36.003  1.00 49.52      B    C  
+HETATM    4  C   0QN E 256      39.349  20.918  37.317  1.00 45.88      B    C  
+HETATM    5  O   0QN E 256      40.276  23.706  36.589  1.00 47.47      B    O  
+HETATM    6  CB  0QN E 256      41.746  19.965  38.058  1.00 45.08      B    C  
+HETATM    7  CB1 0QN E 256      36.874  20.329  34.549  1.00 48.69      B    C  
+HETATM    8  CG1 0QN E 256      41.079  19.410  39.287  1.00 46.38      B    C  
+HETATM    9  CG2 0QN E 256      42.060  18.870  37.060  1.00 45.32      B    C  
+HETATM   10  C1  0QN E 256      40.909  23.518  37.647  1.00 47.97      B    C  
+HETATM   11  N1  0QN E 256      38.796  20.615  36.124  1.00 47.64      B    N  
+HETATM   12  O1  0QN E 256      38.666  21.212  38.301  1.00 42.91      B    O  
+HETATM   13  C2  0QN E 256      41.350  24.706  38.586  1.00 47.19      B    C  
+HETATM   14  N2  0QN E 256      36.393  19.267  37.787  1.00 49.69      B    N  
+HETATM   15  O2  0QN E 256      37.560  17.995  36.188  1.00 52.10      B    O  
+HETATM   16  C3  0QN E 256      37.085  19.046  36.648  1.00 50.43      B    C  
+HETATM   17  C4  0QN E 256      35.386  16.419  40.600  1.00 47.70      B    C  
+HETATM   18  C5  0QN E 256      36.000  16.020  39.415  1.00 46.75      B    C  
+HETATM   19  C6  0QN E 256      36.328  16.944  38.459  1.00 47.30      B    C  
+HETATM   20  C7  0QN E 256      35.076  15.369  41.739  1.00 48.66      B    C  
+HETATM   21  C11 0QN E 256      36.051  18.292  38.664  1.00 48.49      B    C  
+HETATM   22  C21 0QN E 256      35.430  18.687  39.833  1.00 47.99      B    C  
+HETATM   23  C31 0QN E 256      35.098  17.770  40.790  1.00 46.51      B    C  
+HETATM   24  F1  0QN E 256      42.010  24.375  39.718  1.00 46.92      B    F  
+HETATM   25  F11 0QN E 256      35.460  14.058  41.570  1.00 47.56      B    F  
+HETATM   26  F2  0QN E 256      42.174  25.576  37.969  1.00 49.05      B    F  
+HETATM   27  F21 0QN E 256      35.684  15.767  42.857  1.00 50.37      B    F  
+HETATM   28  F3  0QN E 256      40.275  25.401  38.960  1.00 47.55      B    F  
+HETATM   29  F31 0QN E 256      33.771  15.356  42.034  1.00 49.14      B    F  
+CONECT    1    2   10
+CONECT    2    1    4    6
+CONECT    3    7   16   11
+CONECT    4    2   11   12
+CONECT    5   10
+CONECT    6    2    8    9
+CONECT    7    3
+CONECT    8    6
+CONECT    9    6
+CONECT   10    1    5   13
+CONECT   11    4    3
+CONECT   12    4
+CONECT   13   10   24   26   28
+CONECT   14   21   16
+CONECT   15   16
+CONECT   16    3   14   15
+CONECT   17   18   20   23
+CONECT   18   17   19
+CONECT   19   18   21
+CONECT   20   17   25   27   29
+CONECT   21   14   19   22
+CONECT   22   21   23
+CONECT   23   22   17
+CONECT   24   13
+CONECT   25   20
+CONECT   26   13
+CONECT   27   20
+CONECT   28   13
+CONECT   29   20
+END

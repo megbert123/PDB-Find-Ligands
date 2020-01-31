@@ -1,0 +1,37 @@
+HETATM    1  CA1 BAA A 256      45.537  22.207  34.532  1.00 32.33      C    C  
+HETATM    2  CA2 BAA A 256      46.273  24.000  31.117  1.00 45.02      C    C  
+HETATM    3  CB1 BAA A 256      46.737  21.328  34.964  1.00 33.39      C    C  
+HETATM    4  CB2 BAA A 256      46.895  25.290  31.632  1.00 43.46      C    C  
+HETATM    5  C1  BAA A 256      44.720  22.544  35.816  1.00 28.21      C    C  
+HETATM    6  N1  BAA A 256      46.048  23.158  33.526  1.00 36.25      C    N  
+HETATM    7  O1  BAA A 256      44.096  21.634  36.252  1.00 31.02      C    O  
+HETATM    8  C2  BAA A 256      45.651  23.124  32.217  1.00 41.85      C    C  
+HETATM    9  N2  BAA A 256      45.396  24.430  30.051  1.00 48.86      C    N  
+HETATM   10  O2  BAA A 256      44.751  22.414  31.889  1.00 43.55      C    O  
+HETATM   11  C3  BAA A 256      45.911  24.612  28.838  1.00 53.07      C    C  
+HETATM   12  N3  BAA A 256      44.625  23.757  36.438  1.00 23.11      C    N  
+HETATM   13  O3  BAA A 256      47.070  24.369  28.602  1.00 54.03      C    O  
+HETATM   14  C4  BAA A 256      45.030  25.533  26.656  1.00 56.16      C    C  
+HETATM   15  O4  BAA A 256      45.182  25.610  28.086  1.00 55.43      C    O  
+HETATM   16  C41 BAA A 256      44.692  24.108  26.116  1.00 56.71      C    C  
+HETATM   17  C42 BAA A 256      43.833  26.415  26.384  1.00 56.87      C    C  
+HETATM   18  C43 BAA A 256      46.286  26.126  25.995  1.00 55.27      C    C  
+CONECT    1    3    6    5
+CONECT    2    4    9    8
+CONECT    3    1
+CONECT    4    2
+CONECT    5    1    7   12
+CONECT    6    1    8
+CONECT    7    5
+CONECT    8    6    2   10
+CONECT    9    2   11
+CONECT   10    8
+CONECT   11    9   13   15
+CONECT   12    5
+CONECT   13   11
+CONECT   14   16   17   18   15
+CONECT   15   11   14
+CONECT   16   14
+CONECT   17   14
+CONECT   18   14
+END

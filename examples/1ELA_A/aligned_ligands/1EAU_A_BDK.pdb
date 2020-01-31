@@ -1,0 +1,75 @@
+HETATM    1  C1  BDK A   1      44.693  22.239  36.164  1.00 16.56      D    C  
+HETATM    2  N1  BDK A   1      42.157  22.167  37.951  1.00 14.91      D    N  
+HETATM    3  O1  BDK A   1      44.372  24.582  36.318  1.00 14.10      D    O  
+HETATM    4  S1  BDK A   1      42.637  17.722  36.957  1.00 29.22      D    S  
+HETATM    5  C2  BDK A   1      44.031  23.413  36.972  1.00 13.51      D    C  
+HETATM    6  N2  BDK A   1      40.028  19.240  38.299  1.00 21.71      D    N  
+HETATM    7  O2  BDK A   1      41.097  20.973  36.356  1.00 19.06      D    O  
+HETATM    8  C3  BDK A   1      42.513  23.315  37.072  1.00 13.21      D    C  
+HETATM    9  N3  BDK A   1      38.980  17.164  37.938  1.00 24.64      D    N  
+HETATM   10  O3  BDK A   1      38.747  21.133  38.444  1.00 24.61      D    O  
+HETATM   11  C4  BDK A   1      41.705  24.561  37.445  1.00 10.86      D    C  
+HETATM   12  N4  BDK A   1      36.414  19.810  37.812  1.00 21.98      D    N  
+HETATM   13  O4  BDK A   1      43.616  22.623  34.049  1.00 17.64      D    O  
+HETATM   14  C5  BDK A   1      40.251  24.453  37.073  1.00  5.89      D    C  
+HETATM   15  N5  BDK A   1      45.839  22.864  34.090  1.00 19.60      D    N  
+HETATM   16  O5  BDK A   1      45.871  25.319  27.968  1.00 28.83      D    O  
+HETATM   17  C6  BDK A   1      41.877  24.993  38.888  1.00  9.06      D    C  
+HETATM   18  N6  BDK A   1      45.892  23.993  30.519  1.00 29.82      D    N  
+HETATM   19  C7  BDK A   1      41.516  21.087  37.498  1.00 17.33      D    C  
+HETATM   20  C8  BDK A   1      41.283  19.996  38.557  1.00 20.05      D    C  
+HETATM   21  C9  BDK A   1      38.819  19.926  38.262  1.00 19.48      D    C  
+HETATM   22  C10 BDK A   1      37.630  19.126  37.979  1.00 21.74      D    C  
+HETATM   23  C11 BDK A   1      37.765  17.795  37.900  1.00 20.84      D    C  
+HETATM   24  C12 BDK A   1      40.087  17.856  38.072  1.00 22.92      D    C  
+HETATM   25  C13 BDK A   1      41.363  17.088  37.942  1.00 22.69      D    C  
+HETATM   26  C14 BDK A   1      41.709  15.856  38.476  1.00 16.97      D    C  
+HETATM   27  C15 BDK A   1      43.001  15.447  38.096  1.00 17.05      D    C  
+HETATM   28  C16 BDK A   1      43.634  16.347  37.204  1.00 18.35      D    C  
+HETATM   29  C17 BDK A   1      44.665  22.556  34.645  1.00 16.81      D    C  
+HETATM   30  C18 BDK A   1      46.033  22.709  32.629  1.00 22.79      D    C  
+HETATM   31  C19 BDK A   1      45.890  24.062  31.970  1.00 28.27      D    C  
+HETATM   32  C20 BDK A   1      47.052  24.710  29.998  1.00 32.35      D    C  
+HETATM   33  C21 BDK A   1      47.043  24.700  28.481  1.00 32.28      D    C  
+HETATM   34  C22 BDK A   1      44.730  24.654  28.480  1.00 31.17      D    C  
+HETATM   35  C23 BDK A   1      44.703  24.654  29.995  1.00 30.28      D    C  
+HETATM   36  F1  BDK A   1      45.943  22.039  36.550  1.00 15.75      D    F  
+HETATM   37  F2  BDK A   1      44.117  21.056  36.432  1.00 15.83      D    F  
+CONECT    1    5   29   36   37
+CONECT    2    8   19
+CONECT    3    5
+CONECT    4   25   28
+CONECT    5    1    3    8
+CONECT    6   20   21   24
+CONECT    7   19
+CONECT    8    5    2   11
+CONECT    9   23   24
+CONECT   10   21
+CONECT   11    8   14   17
+CONECT   12   22
+CONECT   13   29
+CONECT   14   11
+CONECT   15   29   30
+CONECT   16   33   34
+CONECT   17   11
+CONECT   18   31   32   35
+CONECT   19    2    7   20
+CONECT   20   19    6
+CONECT   21    6   10   22
+CONECT   22   21   12   23
+CONECT   23   22    9
+CONECT   24    6    9   25
+CONECT   25   24    4   26
+CONECT   26   25   27
+CONECT   27   26   28
+CONECT   28   27    4
+CONECT   29    1   13   15
+CONECT   30   15   31
+CONECT   31   30   18
+CONECT   32   18   33
+CONECT   33   32   16
+CONECT   34   16   35
+CONECT   35   34   18
+CONECT   36    1
+CONECT   37    1
+END

@@ -1,0 +1,47 @@
+HETATM    1  N   TPY B 280      43.892  21.679  36.675  1.00 18.57      D    N  
+HETATM    2  CA  TPY B 280      41.640  23.467  37.909  1.00 14.06      D    C  
+HETATM    3  C   TPY B 280      43.027  24.031  37.829  1.00 12.81      D    C  
+HETATM    4  O   TPY B 280      43.574  24.698  36.965  1.00 12.75      D    O  
+HETATM    5  OA  TPY B 280      39.605  21.403  35.893  1.00 15.21      D    O  
+HETATM    6  CB  TPY B 280      41.466  22.384  36.915  1.00 15.60      D    C  
+HETATM    7  OB  TPY B 280      39.483  21.654  38.069  1.00 15.76      D    O  
+HETATM    8  CG1 TPY B 280      45.179  19.257  35.083  1.00 24.69      D    C  
+HETATM    9  CG2 TPY B 280      47.034  20.772  35.048  1.00 24.31      D    C  
+HETATM   10  CD  TPY B 280      40.645  24.594  37.805  1.00 13.83      D    C  
+HETATM   11  OD  TPY B 280      45.511  23.009  35.320  1.00 21.38      D    O  
+HETATM   12  CE  TPY B 280      40.958  25.723  38.766  1.00 14.75      D    C  
+HETATM   13  OE  TPY B 280      49.555  17.372  34.838  1.00 29.00      D    O  
+HETATM   14  CH1 TPY B 280      46.076  18.202  35.017  1.00 26.00      D    C  
+HETATM   15  CH2 TPY B 280      47.913  19.710  34.969  1.00 25.86      D    C  
+HETATM   16  CI  TPY B 280      47.441  18.416  34.956  1.00 26.93      D    C  
+HETATM   17  NJ  TPY B 280      48.324  17.206  34.885  1.00 28.13      D    N  
+HETATM   18  CK  TPY B 280      42.509  21.323  36.870  1.00 17.55      D    C  
+HETATM   19  CC  TPY B 280      40.097  21.784  36.985  1.00 14.81      D    C  
+HETATM   20  CF  TPY B 280      45.674  20.545  35.089  1.00 23.07      D    C  
+HETATM   21  OC  TPY B 280      43.590  22.005  34.209  1.00 21.57      D    O  
+HETATM   22  OF  TPY B 280      47.635  16.162  34.882  1.00 28.90      D    O  
+HETATM   23  S   TPY B 280      44.576  21.918  35.216  1.00 17.96      D    S  
+CONECT    1   18   23
+CONECT    2    6   10    3
+CONECT    3    2    4
+CONECT    4    3
+CONECT    5   19
+CONECT    6    2   18   19
+CONECT    7   19
+CONECT    8   14   20
+CONECT    9   15   20
+CONECT   10    2   12
+CONECT   11   23
+CONECT   12   10
+CONECT   13   17
+CONECT   14    8   16
+CONECT   15    9   16
+CONECT   16   14   15   17
+CONECT   17   16   13   22
+CONECT   18    1    6
+CONECT   19    6    5    7
+CONECT   20    8    9   23
+CONECT   21   23
+CONECT   22   17
+CONECT   23   11   21    1   20
+END

@@ -1,0 +1,5 @@
+HETATM    1  N   PHE A1002      46.039  23.375  33.259  1.00 42.35      F    N  
+HETATM    2  CA  PHE A1002      45.902  23.314  31.802  1.00 41.93      F    C  
+CONECT    1    2
+CONECT    2    1
+END
