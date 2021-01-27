@@ -92,8 +92,6 @@ class SimilarLigands:
         with open(fasta_file, 'r') as f:
             f = f.readlines()
     
-        #header_idx = int([idx for idx, line in enumerate(f) if line.startswith('>') and '|Chain {}|'.format(self.chain) in line][0])
-        #header_idx = int([idx for idx, line in enumerate(f) if line.startswith('>') and self.chain in line.split('|')[1].remove('Chain')][0])
         for idx, line in enumerate(f):
             if line.startswith('>'):
                 subject = line.split('|')[1]
@@ -115,7 +113,7 @@ class SimilarLigands:
             f_out.write(chain_fasta)
         return chain_fasta_file
 
-    # Run mmseq to find PDBs with similar sequences
+    # Run MMseqs2 to find PDBs with similar sequences
     def run_mmseq(self):
        
         # Create mmseq PDB database (if not already in existence)
@@ -134,12 +132,11 @@ class SimilarLigands:
         return aln_res_file
 
 
-    # Get similar PDBS (need a new code here to analyze the mmseqs result
+    # Extract similar PDB IDs from mmseqs alnRsn.m8 file
     def pdb_get_similars(self):
-        
-        # mmseq file has tab separated 12 columns: (0) Query ID, (1) PDB ID (2) sequence identity [0-1], 
-        # (3) alignment length, (4) number of mismatches, (5) number of gap openings, (6-7, 8-9) domain start and end-position in query and in target,
-        # (10) E-value, and (11) bit score.
+         
+        # MMseqs2 alnRsn.m8 file: Query ID, PDB ID, Sequence Identity, Alignment Lengthm # Mismatches, 
+        # Gaps, Query Domain Start, Query Domain End, Target Domain Start, Target Domain End, E-value, Bit Score
         with open(self.mmseq_file, 'r') as f:
             f = f.readlines()
         pdb_list = []
@@ -241,7 +238,6 @@ if __name__ == "__main__":
     with open(pkl_file, 'wb') as pkl_out:
         pickle.dump(s.pdb_ligs_dict, pkl_out)
     cmd = ['python', PKL2CSV, '--', pkl_file]
-    print(cmd)
     check_call(cmd)
 
     # Output pickle table (FILTERED CASES) & convert to CSV
@@ -249,13 +245,10 @@ if __name__ == "__main__":
     with open(uni_pkl_file, 'wb') as pkl_out:
         pickle.dump(s.unique_dict, pkl_out)
     cmd = ['python', PKL2CSV, '--', uni_pkl_file]
-    print(cmd)
     check_call(cmd)
 
-        
     # Make pymol session    
     cmd = ['pymol', '-qrc', MAKE_PSE, '--', '{}.{}'.format(args.pdb, args.chain), sl_file, save_dir]
-    print(" ".join(cmd))
     check_call(cmd)
 
 

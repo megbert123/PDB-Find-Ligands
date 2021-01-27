@@ -28,6 +28,4 @@ How it works
  
 Isomeric Smiles Note: This script will return isomeric smiles for the ligand, whenever possible. If no isomeric smiles are in the .cif file, then canoncial smiles will be returned instead. Interestingly, sometimes (as in the case of 1BMA_A ligand 0QH) the isomeric smiles displayed on the PDB webpage (https://www.rcsb.org/ligand/0QH) is differnet from any of the smiles in the cif file (https://files.rcsb.org/ligands/view/0QH.cif'). There is one set of isomeric smiles in the cif file, it is labeled SMILES_CANONICAL CACTVS, but the stereochemistry is different from the isomeric smiles on the webpage. [i.e. the cif isomeric smiles show the rings in the cis formation, whereas the isomeric smiles on the web page show the rings in the trans formation - if you check the actual structure of the ligand in 1BMA_A_0QH, the rings are actually probably somewhere between cis and trans.]
 
-
-*Need to download mmseqs2 in order to run this script now, it is no longer run through the PDB web API (can be installed with conda)
-$ mmseqs databases PDB PDB_database/pdb tmp
+**Setup Criteria: Need to download MMseqs2 in order to run this script (can be installed with conda)
