@@ -1,0 +1,121 @@
+HETATM    1 CL4  J1H A 401      11.293   3.026  -1.765  1.00 12.49      B   CL  
+HETATM    2  C1  J1H A 401       8.195   4.335  -4.023  1.00 10.31      B    C  
+HETATM    3  C2  J1H A 401       8.959   3.652  -3.096  1.00 10.55      B    C  
+HETATM    4  C3  J1H A 401      10.318   3.904  -2.955  1.00 10.87      B    C  
+HETATM    5  C5  J1H A 401      10.932   4.861  -3.758  1.00 11.06      B    C  
+HETATM    6  C6  J1H A 401      10.176   5.541  -4.677  1.00 11.17      B    C  
+HETATM    7  C7  J1H A 401       8.806   5.298  -4.833  1.00 11.35      B    C  
+HETATM    8  C8  J1H A 401       8.055   6.070  -5.842  1.00 11.96      B    C  
+HETATM    9  C9  J1H A 401       7.018   6.871  -5.264  1.00 12.34      B    C  
+HETATM   10  C10 J1H A 401       6.206   7.664  -6.032  1.00 14.17      B    C  
+HETATM   11  C11 J1H A 401       6.401   7.684  -7.400  1.00 14.16      B    C  
+HETATM   12  C12 J1H A 401       7.396   6.920  -7.989  1.00 14.56      B    C  
+HETATM   13  C13 J1H A 401       8.246   6.092  -7.194  1.00 13.13      B    C  
+HETATM   14  C14 J1H A 401       9.296   5.289  -7.839  1.00 13.26      B    C  
+HETATM   15  N15 J1H A 401       8.625   4.268  -8.767  1.00 12.93      B    N  
+HETATM   16  C16 J1H A 401       9.681   3.408  -9.322  1.00 13.47      B    C  
+HETATM   17  C17 J1H A 401       9.107   2.346 -10.261  1.00 13.48      B    C  
+HETATM   18  C18 J1H A 401       7.664   3.385  -7.996  1.00 12.18      B    C  
+HETATM   19  C19 J1H A 401       7.001   2.342  -8.915  1.00 12.19      B    C  
+HETATM   20  N20 J1H A 401       7.987   1.606  -9.646  1.00 11.62      B    N  
+HETATM   21  C21 J1H A 401       7.577   0.380 -10.254  1.00 10.75      B    C  
+HETATM   22  C22 J1H A 401       6.314  -0.104 -10.068  1.00 11.35      B    C  
+HETATM   23  C23 J1H A 401       5.906  -1.276 -10.642  1.00 11.33      B    C  
+HETATM   24  C24 J1H A 401       8.456  -0.344 -11.046  1.00 12.15      B    C  
+HETATM   25  C25 J1H A 401       8.060  -1.531 -11.635  1.00 12.26      B    C  
+HETATM   26  C26 J1H A 401       6.776  -1.997 -11.429  1.00 10.66      B    C  
+HETATM   27  C27 J1H A 401       6.330  -3.307 -12.073  1.00 10.83      B    C  
+HETATM   28  O28 J1H A 401       7.207  -4.042 -12.683  1.00 12.74      B    O  
+HETATM   29  N29 J1H A 401       5.084  -3.745 -11.788  1.00 10.83      B    N  
+HETATM   30  S30 J1H A 401       4.567  -5.202 -12.104  1.00 10.65      B    S  
+HETATM   31  O31 J1H A 401       3.201  -5.259 -11.581  1.00 10.69      B    O  
+HETATM   32  O32 J1H A 401       4.702  -5.559 -13.539  1.00 12.01      B    O  
+HETATM   33  C33 J1H A 401       5.555  -6.313 -11.180  1.00 11.09      B    C  
+HETATM   34  C34 J1H A 401       5.229  -6.529  -9.854  1.00 11.25      B    C  
+HETATM   35  C35 J1H A 401       5.971  -7.388  -9.080  1.00 10.31      B    C  
+HETATM   36  N36 J1H A 401       5.526  -7.532  -7.697  1.00 12.01      B    N  
+HETATM   37  O37 J1H A 401       6.164  -8.282  -6.878  1.00 14.94      B    O  
+HETATM   38  O38 J1H A 401       4.540  -6.927  -7.346  1.00 12.48      B    O  
+HETATM   39  C39 J1H A 401       6.666  -6.981 -11.761  1.00 11.86      B    C  
+HETATM   40  C40 J1H A 401       7.420  -7.860 -10.966  1.00 13.15      B    C  
+HETATM   41  C41 J1H A 401       7.059  -8.058  -9.613  1.00 12.77      B    C  
+HETATM   42  N42 J1H A 401       7.793  -8.940  -8.766  1.00 15.25      B    N  
+HETATM   43  C43 J1H A 401       8.939  -9.600  -9.182  1.00 17.45      B    C  
+HETATM   44  C44 J1H A 401       9.245 -10.683  -8.071  1.00 19.10      B    C  
+HETATM   45  C45 J1H A 401      10.397 -11.582  -8.504  1.00 24.47      B    C  
+HETATM   46  N46 J1H A 401      10.617 -12.744  -7.555  1.00 26.42      B    N  
+HETATM   47  C47 J1H A 401      10.597 -12.259  -6.154  1.00 23.66      B    C  
+HETATM   48  C48 J1H A 401       9.573 -13.724  -7.745  1.00 31.73      B    C  
+HETATM   49  C49 J1H A 401      11.932 -13.364  -7.845  1.00 25.85      B    C  
+HETATM   50  C50 J1H A 401      10.146  -8.633  -9.339  1.00 16.38      B    C  
+HETATM   51  S51 J1H A 401      10.562  -7.652  -7.834  1.00 17.18      B    S  
+HETATM   52  C52 J1H A 401       9.531  -6.198  -8.102  1.00 13.24      B    C  
+HETATM   53  C53 J1H A 401       9.663  -5.434  -9.227  1.00 11.98      B    C  
+HETATM   54  C54 J1H A 401       8.860  -4.341  -9.391  1.00 13.23      B    C  
+HETATM   55  C55 J1H A 401       7.918  -4.013  -8.417  1.00 12.42      B    C  
+HETATM   56  C56 J1H A 401       7.816  -4.790  -7.320  1.00 11.97      B    C  
+HETATM   57  C57 J1H A 401       8.597  -5.854  -7.159  1.00 12.72      B    C  
+HETATM   58  C58 J1H A 401       9.376 -13.896  -9.246  1.00 40.58      B    C  
+HETATM   59  O59 J1H A 401      10.244 -14.459  -9.922  1.00 53.70      B    O  
+HETATM   60  O60 J1H A 401       8.352 -13.474  -9.788  1.00 61.08      B    O  
+CONECT    1    4
+CONECT    2    3    7
+CONECT    3    2    4
+CONECT    4    3    1    5
+CONECT    5    4    6
+CONECT    6    5    7
+CONECT    7    2    6    8
+CONECT    8    7    9   13
+CONECT    9    8   10
+CONECT   10    9   11
+CONECT   11   10   12
+CONECT   12   11   13
+CONECT   13    8   12   14
+CONECT   14   13   15
+CONECT   15   14   16   18
+CONECT   16   15   17
+CONECT   17   16   20
+CONECT   18   15   19
+CONECT   19   18   20
+CONECT   20   17   19   21
+CONECT   21   20   22   24
+CONECT   22   21   23
+CONECT   23   22   26
+CONECT   24   21   25
+CONECT   25   24   26
+CONECT   26   23   25   27
+CONECT   27   26   28   29
+CONECT   28   27
+CONECT   29   27   30
+CONECT   30   29   31   32   33
+CONECT   31   30
+CONECT   32   30
+CONECT   33   30   34   39
+CONECT   34   33   35
+CONECT   35   34   36   41
+CONECT   36   35   37   38
+CONECT   37   36
+CONECT   38   36
+CONECT   39   33   40
+CONECT   40   39   41
+CONECT   41   35   40   42
+CONECT   42   41   43
+CONECT   43   42   44   50
+CONECT   44   43   45
+CONECT   45   44   46
+CONECT   46   45   47   48   49
+CONECT   47   46
+CONECT   48   46   58
+CONECT   49   46
+CONECT   50   43   51
+CONECT   51   50   52
+CONECT   52   51   53   57
+CONECT   53   52   54
+CONECT   54   53   55
+CONECT   55   54   56
+CONECT   56   55   57
+CONECT   57   52   56
+CONECT   58   48   59   60
+CONECT   59   58
+CONECT   60   58
+END

@@ -1,0 +1,33 @@
+HETATM    1  N   AA4 B 309      44.062  21.794  35.872  1.00 20.21      U    N  
+HETATM    2  CA  AA4 B 309      45.131  21.779  34.847  1.00 25.31      U    C  
+HETATM    3  C   AA4 B 309      44.543  21.370  33.466  1.00 25.01      U    C  
+HETATM    4  O   AA4 B 309      43.516  21.756  33.057  1.00 37.17      U    O  
+HETATM    5  CB  AA4 B 309      46.287  21.053  35.365  1.00 35.39      U    C  
+HETATM    6  CG  AA4 B 309      47.325  20.943  34.351  1.00 42.55      U    C  
+HETATM    7  CD  AA4 B 309      46.824  20.081  33.265  1.00 26.78      U    C  
+HETATM    8  OE  AA4 B 309      46.515  18.816  33.787  1.00 33.21      U    O  
+HETATM    9  H   AA4 B 309      43.850  21.074  36.309  1.00 24.64      U    H  
+HETATM   10  HA  AA4 B 309      45.450  22.650  34.698  1.00 30.77      U    H  
+HETATM   11  HB2 AA4 B 309      46.019  20.193  35.629  1.00 42.86      U    H  
+HETATM   12  HB3 AA4 B 309      46.630  21.510  36.111  1.00 42.86      U    H  
+HETATM   13  HG2 AA4 B 309      48.098  20.566  34.727  1.00 51.45      U    H  
+HETATM   14  HG3 AA4 B 309      47.531  21.794  34.013  1.00 51.45      U    H  
+HETATM   15  HD2 AA4 B 309      47.514  20.076  32.628  1.00 32.53      U    H  
+HETATM   16  HE  AA4 B 309      46.877  18.233  33.330  1.00 40.24      U    H  
+CONECT    1    2    9
+CONECT    2    1    3    5   10
+CONECT    3    2    4
+CONECT    4    3
+CONECT    5    2    6   11   12
+CONECT    6    5    7   13   14
+CONECT    7    6    8   15
+CONECT    8    7   16
+CONECT    9    1
+CONECT   10    2
+CONECT   11    5
+CONECT   12    5
+CONECT   13    6
+CONECT   14    6
+CONECT   15    7
+CONECT   16    8
+END

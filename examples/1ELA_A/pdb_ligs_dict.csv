@@ -51,6 +51,26 @@ pdb,chain,lig,name,smiles,mw,additional_pdbs
 3HGP,A,FRW,"""4-[[(2S)-3-methyl-1-oxo-1-[(2S)-2-[[(3S)-1,1,1-trifluoro-4-methyl-2-oxo-pentan-3-yl]carbamoyl]pyrrolidin-1-yl]butan-2-yl]carbamoyl]benzoic""",CC(C)[C@H](NC(=O)c1ccc(cc1)C(O)=O)C(=O)N2CCC[C@H]2C(=O)N[C@@H](C(C)C)C(=O)C(F)(F)F,513.507,NA
 4YM9,A,4E4,2-ethyl-2-(hydroxymethyl)-N-(6-methylpyridin-3-yl)butanamide,CCC(CC)(CO)C(=O)Nc1ccc(nc1)C,236.310,NA
 5EST,E,0P2,"""N~2~-[(benzyloxy)carbonyl]-N-[(1R,2S)-1-(dihydroxyboranyl)-2-methylbutyl]-L-alaninamide""",CC[C@H](C)[C@H](NC(=O)[C@H](C)NC(=O)OCc1ccccc1)B(O)O,336.191,NA
+6QBU,A,HVZ,"""~{N}-[[1-[(4-chlorophenyl)methyl]-1,2,3-triazol-4-yl]methyl]-2-hydrosulfonyl-2-methyl-propanamide""",CC(C)(C(=O)NCc1cn(nn1)Cc2ccc(cc2)Cl)S(=O)=O,356.828,NA
+6QBU,A,MPD,"""(4S)-2-METHYL-2,4-PENTANEDIOL""",C[C@H](O)CC(C)(C)O,118.174,"""['6QEN_A', '6QEO_A']"""
+6QEN,A,J05,"""1-[[1-[(4-bromophenyl)methyl]-1,2,3-triazol-4-yl]methylamino]-2-methyl-1-oxidanylidene-propane-2-sulfonic""",CC(C)(C(=O)NCc1cn(nn1)Cc2ccc(cc2)Br)S(=O)(=O)O,417.278,NA
+6QEN,A,MPD,"""(4S)-2-METHYL-2,4-PENTANEDIOL""",C[C@H](O)CC(C)(C)O,118.174,NA
+6QEO,A,J02,"""2-methyl-1-[[1-[(4-nitrophenyl)methyl]-1,2,3-triazol-4-yl]methylamino]-1-oxidanylidene-propane-2-sulfonic""",CC(C)(C(=O)NCc1cn(nn1)Cc2ccc(cc2)[N+](=O)[O-])S(=O)(=O)O,383.380,NA
+6QEO,A,MPD,"""(4S)-2-METHYL-2,4-PENTANEDIOL""",C[C@H](O)CC(C)(C)O,118.174,NA
+6TH7,A,ABA,ALPHA-AMINOBUTYRIC,CC[C@H](N)C(O)=O,103.120,['6TH7_B']
+6TH7,A,VAL,VALINE,CC(C)[C@H](N)C(O)=O,117.146,['6TH7_B']
+6TH7,A,O4Q,(~{E})-4-chloranyl-3-methyl-but-3-enal,CC(=CCl)CC=O,118.561,['6TH7_B']
+6TH7,A,ILE,ISOLEUCINE,CC[C@H](C)[C@H](N)C(O)=O,131.173,['6TH7_B']
+6TH7,A,N9K,(2~{S})-3-(4-hydroxyphenyl)-2-(methylamino)propanoic,CN[C@@H](Cc1ccc(O)cc1)C(O)=O,195.215,NA
+6TH7,A,PHA,PHENYLALANINAL,N[C@@H](Cc1ccccc1)C=O,149.190,['6TH7_B']
+6TH7,A,AA4,2-AMINO-5-HYDROXYPENTANOIC,N[C@@H](CCCO)C(O)=O,133.146,['6TH7_B']
+6TH7,B,ABA,ALPHA-AMINOBUTYRIC,CC[C@H](N)C(O)=O,103.120,NA
+6TH7,B,VAL,VALINE,CC(C)[C@H](N)C(O)=O,117.146,NA
+6TH7,B,O4Q,(~{E})-4-chloranyl-3-methyl-but-3-enal,CC(=CCl)CC=O,118.561,NA
+6TH7,B,ILE,ISOLEUCINE,CC[C@H](C)[C@H](N)C(O)=O,131.173,NA
+6TH7,B,PHA,PHENYLALANINAL,N[C@@H](Cc1ccccc1)C=O,149.190,NA
+6TH7,B,AA4,2-AMINO-5-HYDROXYPENTANOIC,N[C@@H](CCCO)C(O)=O,133.146,NA
+6TH7,B,YNM,N-METHYL-L-TYROSINE,CN[C@@H](Cc1ccc(O)cc1)C(O)=O,195.215,NA
 7EST,E,0Z2,N-(trifluoroacetyl)-L-leucyl-N-[4-(trifluoromethyl)phenyl]-L-alaninamide,CC(C)C[C@H](NC(=O)C(F)(F)F)C(=O)N[C@@H](C)C(=O)Nc1ccc(cc1)C(F)(F)F,441.368,NA
 8EST,E,GIS,ETHYL-(2-CARBOXY-4-GUANIDINIUM-PHENYL)-CHLOROACETATE,CCOC(=O)[C@@H](Cl)c1ccc(NC(N)=N)cc1C(O)=O,299.710,NA
 9EST,A,IBR,None,c1cc(c(cc1N)C=O)CC(=O)OCCBr,286.122,NA

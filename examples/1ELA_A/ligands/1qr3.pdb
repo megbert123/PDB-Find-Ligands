@@ -2,12 +2,13 @@ HEADER    HYDROLASE/HYDROLASE INHIBITOR           18-JUN-99   1QR3
 TITLE     STRUCTURE OF PORCINE PANCREATIC ELASTASE IN COMPLEX WITH FR901277, A  
 TITLE    2 NOVEL MACROCYCLIC INHIBITOR OF ELASTASES AT 1.6 ANGSTROM RESOLUTION  
 COMPND    MOL_ID: 1;                                                            
-COMPND   2 MOLECULE: ELASTASE 1;                                                
+COMPND   2 MOLECULE: CHYMOTRYPSIN-LIKE ELASTASE FAMILY MEMBER 1;                
 COMPND   3 CHAIN: E;                                                            
-COMPND   4 EC: 3.4.21.36;                                                       
-COMPND   5 MOL_ID: 2;                                                           
-COMPND   6 MOLECULE: FR901277;                                                  
-COMPND   7 CHAIN: I                                                             
+COMPND   4 SYNONYM: ELASTASE-1;                                                 
+COMPND   5 EC: 3.4.21.36;                                                       
+COMPND   6 MOL_ID: 2;                                                           
+COMPND   7 MOLECULE: FR901277 INHIBITOR;                                        
+COMPND   8 CHAIN: I                                                             
 SOURCE    MOL_ID: 1;                                                            
 SOURCE   2 ORGANISM_SCIENTIFIC: SUS SCROFA;                                     
 SOURCE   3 ORGANISM_COMMON: PIG;                                                
@@ -19,6 +20,8 @@ SOURCE   8 ORGANISM_TAXID: 67356
 KEYWDS    PROTEASE, HYDROLASE-HYDROLASE INHIBITOR COMPLEX                       
 EXPDTA    X-RAY DIFFRACTION                                                     
 AUTHOR    I.NAKANISHI,T.KINOSHITA,A.SATO,T.TADA                                 
+REVDAT   9   12-AUG-20 1QR3    1       COMPND SOURCE REMARK DBREF               
+REVDAT   9 2                   1       SEQADV LINK   ATOM                       
 REVDAT   8   04-APR-18 1QR3    1       REMARK DBREF                             
 REVDAT   7   04-OCT-17 1QR3    1       REMARK                                   
 REVDAT   6   13-JUL-11 1QR3    1       VERSN                                    
@@ -240,6 +243,16 @@ REMARK 350 APPLY THE FOLLOWING TO CHAINS: E, I
 REMARK 350   BIOMT1   1  1.000000  0.000000  0.000000        0.00000            
 REMARK 350   BIOMT2   1  0.000000  1.000000  0.000000        0.00000            
 REMARK 350   BIOMT3   1  0.000000  0.000000  1.000000        0.00000            
+REMARK 400                                                                      
+REMARK 400 COMPOUND                                                             
+REMARK 400                                                                      
+REMARK 400 THE FR901277 IS OLIGOPEPTIDE, A MEMBER OF ANTIINFLAMMATORY CLASS.    
+REMARK 400                                                                      
+REMARK 400  GROUP: 1                                                            
+REMARK 400   NAME: FR901277                                                     
+REMARK 400   CHAIN: I                                                           
+REMARK 400   COMPONENT_1: PEPTIDE LIKE POLYMER                                  
+REMARK 400   DESCRIPTION: NULL                                                  
 REMARK 500                                                                      
 REMARK 500 GEOMETRY AND STEREOCHEMISTRY                                         
 REMARK 500 SUBTOPIC: COVALENT BOND LENGTHS                                      
@@ -310,7 +323,7 @@ REMARK 500    TYR E 171     -109.13    -99.77
 REMARK 500    ASN E 204       49.74     39.66                                   
 REMARK 500    SER E 214      -59.59   -120.42                                   
 REMARK 500    ARG E 223       37.71     39.32                                   
-REMARK 500    GLJ I 254     -152.21    -96.53                                   
+REMARK 500    GLJ I   5     -152.21    -96.53                                   
 REMARK 500                                                                      
 REMARK 500 REMARK: NULL                                                         
 REMARK 500                                                                      
@@ -354,12 +367,12 @@ REMARK 620
 REMARK 620 COORDINATION ANGLES FOR:  M RES CSSEQI METAL                         
 REMARK 620                              CA E 400  CA                            
 REMARK 620 N RES CSSEQI ATOM                                                    
-REMARK 620 1 HOH E 437   O                                                      
-REMARK 620 2 HOH E 561   O   129.3                                              
-REMARK 620 3 GLU E  70   OE1 100.4  71.2                                        
-REMARK 620 4 HOH E 643   O    92.8 116.2 154.6                                  
-REMARK 620 5 HOH E 463   O    95.4 123.2  67.3  90.1                            
-REMARK 620 6 LEU E  73   O    61.8  69.6  97.1 108.3 150.6                      
+REMARK 620 1 GLU E  70   OE1                                                    
+REMARK 620 2 LEU E  73   O    97.1                                              
+REMARK 620 3 HOH E 437   O   100.4  61.8                                        
+REMARK 620 4 HOH E 463   O    67.3 150.6  95.4                                  
+REMARK 620 5 HOH E 561   O    71.2  69.6 129.3 123.2                            
+REMARK 620 6 HOH E 643   O   154.6 108.3  92.8  90.1 116.2                      
 REMARK 620 N                    1     2     3     4     5                       
 REMARK 800                                                                      
 REMARK 800 SITE                                                                 
@@ -374,9 +387,9 @@ REMARK 800
 REMARK 800 SITE_IDENTIFIER: AC3                                                 
 REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
 REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR CHAIN I OF FR901277               
-DBREF  1QR3 E   16   245  UNP    P00772   EL1_PIG         27    266             
-DBREF  1QR3 I  250   257  PDB    1QR3     1QR3           250    257             
-SEQADV 1QR3 ASN E   77  UNP  P00772    ASP    92 CONFLICT                       
+DBREF  1QR3 E   16   245  UNP    P00772   CELA1_PIG       27    266             
+DBREF  1QR3 I    1     8  PDB    1QR3     1QR3             1      8             
+SEQADV 1QR3 ASN E   77  UNP  P00772    ASP    92 VARIANT                        
 SEQRES   1 E  240  VAL VAL GLY GLY THR GLU ALA GLN ARG ASN SER TRP PRO          
 SEQRES   2 E  240  SER GLN ILE SER LEU GLN TYR ARG SER GLY SER SER TRP          
 SEQRES   3 E  240  ALA HIS THR CYS GLY GLY THR LEU ILE ARG GLN ASN TRP          
@@ -397,15 +410,11 @@ SEQRES  17 E  240  VAL SER ARG LEU GLY CYS ASN VAL THR ARG LYS PRO THR
 SEQRES  18 E  240  VAL PHE THR ARG VAL SER ALA TYR ILE SER TRP ILE ASN          
 SEQRES  19 E  240  ASN VAL ILE ALA SER ASN                                      
 SEQRES   1 I    8  ALQ CIR THR DBU GLJ PHE TYJ VAL                              
-MODRES 1QR3 CIR I  251  ARG  CITRULLINE                                         
-MODRES 1QR3 DBU I  253  THR  (2Z)-2-AMINOBUT-2-ENOIC ACID                       
-MODRES 1QR3 GLJ I  254  GLU  5,5-DIHYDROXY-L-NORVALINE                          
-MODRES 1QR3 TYJ I  256  TYR  2,5-DIHYDROXY-N-METHYL-L-TYROSINE                  
-HET    ALQ  I 250       5                                                       
-HET    CIR  I 251      11                                                       
-HET    DBU  I 253       6                                                       
-HET    GLJ  I 254       8                                                       
-HET    TYJ  I 256      14                                                       
+HET    ALQ  I   1       5                                                       
+HET    CIR  I   2      11                                                       
+HET    DBU  I   4       6                                                       
+HET    GLJ  I   5       8                                                       
+HET    TYJ  I   7      14                                                       
 HET     CA  E 400       1                                                       
 HET    SO4  E 401       5                                                       
 HETNAM     ALQ 2-METHYL-PROPIONIC ACID                                          
@@ -448,23 +457,23 @@ SSBOND   1 CYS E   42    CYS E   58                          1555   1555  2.06
 SSBOND   2 CYS E  136    CYS E  201                          1555   1555  1.96  
 SSBOND   3 CYS E  168    CYS E  182                          1555   1555  2.00  
 SSBOND   4 CYS E  191    CYS E  220                          1555   1555  2.02  
-LINK         OG1 THR I 252                 C   VAL I 257     1555   1555  1.31  
+LINK         C   ALQ I   1                 N2  CIR I   2     1555   1555  1.32  
+LINK         C1  CIR I   2                 N   THR I   3     1555   1555  1.36  
+LINK         N8  CIR I   2                CD12 TYJ I   7     1555   1555  1.36  
+LINK         C   THR I   3                 N   DBU I   4     1555   1555  1.37  
+LINK         OG1 THR I   3                 C   VAL I   8     1555   1555  1.31  
+LINK         C   DBU I   4                 N   GLJ I   5     1555   1555  1.31  
+LINK         CD  GLJ I   5                 N   PHE I   6     1555   1555  1.48  
+LINK         C   GLJ I   5                 N   PHE I   6     1555   1555  1.39  
+LINK         C   PHE I   6                 N   TYJ I   7     1555   1555  1.35  
+LINK         C   TYJ I   7                 N   VAL I   8     1555   1555  1.36  
+LINK         OE1 GLU E  70                CA    CA E 400     1555   1555  2.79  
+LINK         O   LEU E  73                CA    CA E 400     1555   1555  2.61  
 LINK        CA    CA E 400                 O   HOH E 437     1555   1555  2.46  
-LINK        CA    CA E 400                 O   HOH E 561     1555   1555  2.47  
-LINK        CA    CA E 400                 OE1 GLU E  70     1555   1555  2.79  
-LINK        CA    CA E 400                 O   HOH E 643     1555   1555  2.53  
 LINK        CA    CA E 400                 O   HOH E 463     1555   1555  2.43  
-LINK        CA    CA E 400                 O   LEU E  73     1555   1555  2.61  
-LINK         C   THR I 252                 N   DBU I 253     1555   1555  1.37  
-LINK         C   ALQ I 250                 N2  CIR I 251     1555   1555  1.32  
-LINK         C1  CIR I 251                 N   THR I 252     1555   1555  1.36  
-LINK         C   DBU I 253                 N   GLJ I 254     1555   1555  1.31  
-LINK         CD  GLJ I 254                 N   PHE I 255     1555   1555  1.48  
-LINK         C   GLJ I 254                 N   PHE I 255     1555   1555  1.39  
-LINK         C   PHE I 255                 N   TYJ I 256     1555   1555  1.35  
-LINK         C   TYJ I 256                 N   VAL I 257     1555   1555  1.36  
-LINK         N8  CIR I 251                CD12 TYJ I 256     1555   1555  1.36  
-CISPEP   1 PHE I  255    TYJ I  256          0        -0.66                     
+LINK        CA    CA E 400                 O   HOH E 561     1555   1555  2.47  
+LINK        CA    CA E 400                 O   HOH E 643     1555   1555  2.53  
+CISPEP   1 PHE I    6    TYJ I    7          0        -0.66                     
 SITE     1 AC1  6 GLU E  70  LEU E  73  HOH E 437  HOH E 463                    
 SITE     2 AC1  6 HOH E 561  HOH E 643                                          
 SITE     1 AC2 11 GLY E 127  ARG E 145  ARG E 230  HOH E 420                    
@@ -2304,76 +2313,76 @@ ATOM   1820  OD1 ASN E 245       9.900  15.925  51.328  1.00 50.41           O
 ATOM   1821  ND2 ASN E 245      10.546  17.992  50.958  1.00 50.57           N  
 ATOM   1822  OXT ASN E 245      13.975  19.553  51.809  1.00 49.47           O  
 TER    1823      ASN E 245                                                      
-HETATM 1824  CM  ALQ I 250     -18.094  17.332  41.126  1.00 21.19           C  
-HETATM 1825  CA  ALQ I 250     -16.745  18.030  41.207  1.00 20.30           C  
-HETATM 1826  CB  ALQ I 250     -15.917  17.422  42.359  1.00 21.20           C  
-HETATM 1827  C   ALQ I 250     -15.955  17.856  39.911  1.00 20.57           C  
-HETATM 1828  O   ALQ I 250     -15.332  16.853  39.600  1.00 20.44           O  
-HETATM 1829  C1  CIR I 251     -13.710  19.751  38.466  1.00 20.42           C  
-HETATM 1830  O1  CIR I 251     -13.767  20.905  38.873  1.00 20.08           O  
-HETATM 1831  C2  CIR I 251     -15.022  19.016  37.997  1.00 20.36           C  
-HETATM 1832  N2  CIR I 251     -15.943  18.922  39.129  1.00 20.34           N  
-HETATM 1833  C3  CIR I 251     -15.697  19.840  36.886  1.00 21.67           C  
-HETATM 1834  C4  CIR I 251     -14.739  20.422  35.835  1.00 24.47           C  
-HETATM 1835  C5  CIR I 251     -14.051  19.430  34.905  1.00 24.50           C  
-HETATM 1836  N6  CIR I 251     -12.869  20.028  34.268  1.00 25.04           N  
-HETATM 1837  C7  CIR I 251     -12.801  19.950  32.938  1.00 24.98           C  
-HETATM 1838  O7  CIR I 251     -13.673  19.503  32.209  1.00 24.65           O  
-HETATM 1839  N8  CIR I 251     -11.649  20.365  32.423  1.00 23.96           N  
-ATOM   1840  N   THR I 252     -12.549  19.053  38.362  1.00 19.33           N  
-ATOM   1841  CA  THR I 252     -11.312  19.747  38.652  1.00 18.67           C  
-ATOM   1842  C   THR I 252     -10.918  20.804  37.605  1.00 18.42           C  
-ATOM   1843  O   THR I 252     -11.256  20.711  36.432  1.00 16.87           O  
-ATOM   1844  CB  THR I 252     -10.048  18.810  38.873  1.00 19.22           C  
-ATOM   1845  OG1 THR I 252      -9.974  17.840  37.838  1.00 18.30           O  
-ATOM   1846  CG2 THR I 252     -10.170  18.163  40.214  1.00 17.97           C  
-HETATM 1847  N   DBU I 253     -10.207  21.831  38.171  1.00 17.60           N  
-HETATM 1848  CA  DBU I 253      -9.866  23.054  37.416  1.00 15.76           C  
-HETATM 1849  CB  DBU I 253     -10.416  24.257  37.724  1.00 16.71           C  
-HETATM 1850  CG  DBU I 253     -11.443  24.451  38.825  1.00 14.12           C  
-HETATM 1851  C   DBU I 253      -8.900  22.955  36.282  1.00 16.66           C  
-HETATM 1852  O   DBU I 253      -8.683  23.949  35.593  1.00 17.92           O  
-HETATM 1853  N   GLJ I 254      -8.297  21.805  36.085  1.00 16.41           N  
-HETATM 1854  CA  GLJ I 254      -7.323  21.678  35.002  1.00 16.19           C  
-HETATM 1855  C   GLJ I 254      -7.966  21.066  33.697  1.00 17.28           C  
-HETATM 1856  O   GLJ I 254      -9.165  21.229  33.420  1.00 16.88           O  
-HETATM 1857  CB  GLJ I 254      -6.099  20.893  35.510  1.00 16.03           C  
-HETATM 1858  CG  GLJ I 254      -5.157  20.738  34.324  1.00 17.64           C  
-HETATM 1859  CD  GLJ I 254      -5.773  19.884  33.230  1.00 17.46           C  
-HETATM 1860  OE1 GLJ I 254      -6.113  18.608  33.741  1.00 17.59           O  
-ATOM   1861  N   PHE I 255      -7.120  20.358  32.847  1.00 17.65           N  
-ATOM   1862  CA  PHE I 255      -7.637  19.996  31.518  1.00 19.89           C  
-ATOM   1863  C   PHE I 255      -7.455  18.483  31.231  1.00 20.99           C  
-ATOM   1864  O   PHE I 255      -6.440  18.123  30.663  1.00 20.82           O  
-ATOM   1865  CB  PHE I 255      -6.885  20.748  30.409  1.00 19.95           C  
-ATOM   1866  CG  PHE I 255      -6.961  22.247  30.573  1.00 20.78           C  
-ATOM   1867  CD1 PHE I 255      -5.890  22.892  31.237  1.00 20.79           C  
-ATOM   1868  CD2 PHE I 255      -8.111  22.926  30.088  1.00 21.46           C  
-ATOM   1869  CE1 PHE I 255      -6.051  24.287  31.425  1.00 21.26           C  
-ATOM   1870  CE2 PHE I 255      -8.230  24.318  30.289  1.00 21.47           C  
-ATOM   1871  CZ  PHE I 255      -7.189  24.981  30.959  1.00 20.87           C  
-HETATM 1872  N   TYJ I 256      -8.377  17.580  31.634  1.00 22.11           N  
-HETATM 1873  CA  TYJ I 256      -9.589  17.950  32.371  1.00 23.08           C  
-HETATM 1874  C   TYJ I 256      -9.885  17.354  33.736  1.00 22.15           C  
-HETATM 1875  O   TYJ I 256     -11.037  17.097  34.061  1.00 22.97           O  
-HETATM 1876  CN  TYJ I 256      -8.199  16.122  31.436  1.00 22.16           C  
-HETATM 1877  CB7 TYJ I 256     -10.804  17.762  31.484  1.00 24.70           C  
-HETATM 1878  CG5 TYJ I 256     -10.939  18.935  30.578  1.00 26.46           C  
-HETATM 1879 CD12 TYJ I 256     -11.384  20.160  31.104  1.00 26.59           C  
-HETATM 1880 CD21 TYJ I 256     -10.568  18.783  29.236  1.00 28.46           C  
-HETATM 1881 CE11 TYJ I 256     -11.494  21.265  30.276  1.00 28.41           C  
-HETATM 1882 CE21 TYJ I 256     -10.679  19.899  28.437  1.00 30.37           C  
-HETATM 1883  CZ1 TYJ I 256     -11.118  21.126  28.949  1.00 30.31           C  
-HETATM 1884  OZ  TYJ I 256     -10.320  19.771  27.119  1.00 32.15           O  
-HETATM 1885  OH1 TYJ I 256     -11.163  22.276  28.142  1.00 31.06           O  
-ATOM   1886  N   VAL I 257      -8.772  17.240  34.501  1.00 21.57           N  
-ATOM   1887  CA  VAL I 257      -8.869  16.849  35.917  1.00 22.79           C  
-ATOM   1888  C   VAL I 257      -9.120  18.060  36.866  1.00 20.86           C  
-ATOM   1889  O   VAL I 257      -8.570  19.098  36.671  1.00 18.64           O  
-ATOM   1890  CB  VAL I 257      -7.593  16.166  36.422  1.00 23.94           C  
-ATOM   1891  CG1 VAL I 257      -7.920  15.149  37.523  1.00 25.48           C  
-ATOM   1892  CG2 VAL I 257      -6.817  15.549  35.283  1.00 25.09           C  
-TER    1893      VAL I 257                                                      
+HETATM 1824  CM  ALQ I   1     -18.094  17.332  41.126  1.00 21.19           C  
+HETATM 1825  CA  ALQ I   1     -16.745  18.030  41.207  1.00 20.30           C  
+HETATM 1826  CB  ALQ I   1     -15.917  17.422  42.359  1.00 21.20           C  
+HETATM 1827  C   ALQ I   1     -15.955  17.856  39.911  1.00 20.57           C  
+HETATM 1828  O   ALQ I   1     -15.332  16.853  39.600  1.00 20.44           O  
+HETATM 1829  C1  CIR I   2     -13.710  19.751  38.466  1.00 20.42           C  
+HETATM 1830  O1  CIR I   2     -13.767  20.905  38.873  1.00 20.08           O  
+HETATM 1831  C2  CIR I   2     -15.022  19.016  37.997  1.00 20.36           C  
+HETATM 1832  N2  CIR I   2     -15.943  18.922  39.129  1.00 20.34           N  
+HETATM 1833  C3  CIR I   2     -15.697  19.840  36.886  1.00 21.67           C  
+HETATM 1834  C4  CIR I   2     -14.739  20.422  35.835  1.00 24.47           C  
+HETATM 1835  C5  CIR I   2     -14.051  19.430  34.905  1.00 24.50           C  
+HETATM 1836  N6  CIR I   2     -12.869  20.028  34.268  1.00 25.04           N  
+HETATM 1837  C7  CIR I   2     -12.801  19.950  32.938  1.00 24.98           C  
+HETATM 1838  O7  CIR I   2     -13.673  19.503  32.209  1.00 24.65           O  
+HETATM 1839  N8  CIR I   2     -11.649  20.365  32.423  1.00 23.96           N  
+ATOM   1840  N   THR I   3     -12.549  19.053  38.362  1.00 19.33           N  
+ATOM   1841  CA  THR I   3     -11.312  19.747  38.652  1.00 18.67           C  
+ATOM   1842  C   THR I   3     -10.918  20.804  37.605  1.00 18.42           C  
+ATOM   1843  O   THR I   3     -11.256  20.711  36.432  1.00 16.87           O  
+ATOM   1844  CB  THR I   3     -10.048  18.810  38.873  1.00 19.22           C  
+ATOM   1845  OG1 THR I   3      -9.974  17.840  37.838  1.00 18.30           O  
+ATOM   1846  CG2 THR I   3     -10.170  18.163  40.214  1.00 17.97           C  
+HETATM 1847  N   DBU I   4     -10.207  21.831  38.171  1.00 17.60           N  
+HETATM 1848  CA  DBU I   4      -9.866  23.054  37.416  1.00 15.76           C  
+HETATM 1849  CB  DBU I   4     -10.416  24.257  37.724  1.00 16.71           C  
+HETATM 1850  CG  DBU I   4     -11.443  24.451  38.825  1.00 14.12           C  
+HETATM 1851  C   DBU I   4      -8.900  22.955  36.282  1.00 16.66           C  
+HETATM 1852  O   DBU I   4      -8.683  23.949  35.593  1.00 17.92           O  
+HETATM 1853  N   GLJ I   5      -8.297  21.805  36.085  1.00 16.41           N  
+HETATM 1854  CA  GLJ I   5      -7.323  21.678  35.002  1.00 16.19           C  
+HETATM 1855  C   GLJ I   5      -7.966  21.066  33.697  1.00 17.28           C  
+HETATM 1856  O   GLJ I   5      -9.165  21.229  33.420  1.00 16.88           O  
+HETATM 1857  CB  GLJ I   5      -6.099  20.893  35.510  1.00 16.03           C  
+HETATM 1858  CG  GLJ I   5      -5.157  20.738  34.324  1.00 17.64           C  
+HETATM 1859  CD  GLJ I   5      -5.773  19.884  33.230  1.00 17.46           C  
+HETATM 1860  OE1 GLJ I   5      -6.113  18.608  33.741  1.00 17.59           O  
+ATOM   1861  N   PHE I   6      -7.120  20.358  32.847  1.00 17.65           N  
+ATOM   1862  CA  PHE I   6      -7.637  19.996  31.518  1.00 19.89           C  
+ATOM   1863  C   PHE I   6      -7.455  18.483  31.231  1.00 20.99           C  
+ATOM   1864  O   PHE I   6      -6.440  18.123  30.663  1.00 20.82           O  
+ATOM   1865  CB  PHE I   6      -6.885  20.748  30.409  1.00 19.95           C  
+ATOM   1866  CG  PHE I   6      -6.961  22.247  30.573  1.00 20.78           C  
+ATOM   1867  CD1 PHE I   6      -5.890  22.892  31.237  1.00 20.79           C  
+ATOM   1868  CD2 PHE I   6      -8.111  22.926  30.088  1.00 21.46           C  
+ATOM   1869  CE1 PHE I   6      -6.051  24.287  31.425  1.00 21.26           C  
+ATOM   1870  CE2 PHE I   6      -8.230  24.318  30.289  1.00 21.47           C  
+ATOM   1871  CZ  PHE I   6      -7.189  24.981  30.959  1.00 20.87           C  
+HETATM 1872  N   TYJ I   7      -8.377  17.580  31.634  1.00 22.11           N  
+HETATM 1873  CA  TYJ I   7      -9.589  17.950  32.371  1.00 23.08           C  
+HETATM 1874  C   TYJ I   7      -9.885  17.354  33.736  1.00 22.15           C  
+HETATM 1875  O   TYJ I   7     -11.037  17.097  34.061  1.00 22.97           O  
+HETATM 1876  CN  TYJ I   7      -8.199  16.122  31.436  1.00 22.16           C  
+HETATM 1877  CB7 TYJ I   7     -10.804  17.762  31.484  1.00 24.70           C  
+HETATM 1878  CG5 TYJ I   7     -10.939  18.935  30.578  1.00 26.46           C  
+HETATM 1879 CD12 TYJ I   7     -11.384  20.160  31.104  1.00 26.59           C  
+HETATM 1880 CD21 TYJ I   7     -10.568  18.783  29.236  1.00 28.46           C  
+HETATM 1881 CE11 TYJ I   7     -11.494  21.265  30.276  1.00 28.41           C  
+HETATM 1882 CE21 TYJ I   7     -10.679  19.899  28.437  1.00 30.37           C  
+HETATM 1883  CZ1 TYJ I   7     -11.118  21.126  28.949  1.00 30.31           C  
+HETATM 1884  OZ  TYJ I   7     -10.320  19.771  27.119  1.00 32.15           O  
+HETATM 1885  OH1 TYJ I   7     -11.163  22.276  28.142  1.00 31.06           O  
+ATOM   1886  N   VAL I   8      -8.772  17.240  34.501  1.00 21.57           N  
+ATOM   1887  CA  VAL I   8      -8.869  16.849  35.917  1.00 22.79           C  
+ATOM   1888  C   VAL I   8      -9.120  18.060  36.866  1.00 20.86           C  
+ATOM   1889  O   VAL I   8      -8.570  19.098  36.671  1.00 18.64           O  
+ATOM   1890  CB  VAL I   8      -7.593  16.166  36.422  1.00 23.94           C  
+ATOM   1891  CG1 VAL I   8      -7.920  15.149  37.523  1.00 25.48           C  
+ATOM   1892  CG2 VAL I   8      -6.817  15.549  35.283  1.00 25.09           C  
+TER    1893      VAL I   8                                                      
 HETATM 1894 CA    CA E 400       5.388  33.082  29.270  1.00 72.25          CA  
 HETATM 1895  S   SO4 E 401      -8.237  21.511  61.427  1.00 40.99           S  
 HETATM 1896  O1  SO4 E 401      -7.862  22.910  61.213  1.00 41.60           O  
@@ -2789,5 +2798,5 @@ CONECT 1935 1894
 CONECT 1961 1894                                                                
 CONECT 2059 1894                                                                
 CONECT 2141 1894                                                                
-MASTER      338    0    7    5   15    0    9    6 2234    2   72   20          
+MASTER      348    0    7    5   15    0    9    6 2234    2   72   20          
 END                                                                             

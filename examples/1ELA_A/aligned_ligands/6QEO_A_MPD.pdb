@@ -1,0 +1,25 @@
+HETATM    1  CM  MPD A1004      59.880  12.780  33.332  1.00 18.82      E    C  
+ANISOU    1  CM  MPD A1004     2606   2371   2173    398    272    457  E    C  
+HETATM    2  C1  MPD A1004      62.009  11.626  32.724  1.00 18.80      E    C  
+ANISOU    2  C1  MPD A1004     2700   2130   2312    102    -61    207  E    C  
+HETATM    3  C2  MPD A1004      61.194  12.223  33.868  1.00 17.93      E    C  
+ANISOU    3  C2  MPD A1004     2326   2243   2243      9     89     20  E    C  
+HETATM    4  O2  MPD A1004      61.942  13.343  34.411  1.00 19.17      E    O  
+ANISOU    4  O2  MPD A1004     2363   2635   2285    105    113    119  E    O  
+HETATM    5  C3  MPD A1004      60.974  11.125  34.906  1.00 19.47      E    C  
+ANISOU    5  C3  MPD A1004     2417   2668   2312    186    -81    -56  E    C  
+HETATM    6  C4  MPD A1004      60.447  11.561  36.273  1.00 20.10      E    C  
+ANISOU    6  C4  MPD A1004     2404   2662   2572     97    297   -108  E    C  
+HETATM    7  O4  MPD A1004      59.038  11.705  36.189  1.00 18.67      E    O  
+ANISOU    7  O4  MPD A1004     2016   2350   2727     55    175   -225  E    O  
+HETATM    8  C5  MPD A1004      60.876  10.531  37.328  1.00 20.46      E    C  
+ANISOU    8  C5  MPD A1004     2366   2795   2613    179    127   -188  E    C  
+CONECT    1    3
+CONECT    2    3
+CONECT    3    2    1    4    5
+CONECT    4    3
+CONECT    5    3    6
+CONECT    6    5    7    8
+CONECT    7    6
+CONECT    8    6
+END

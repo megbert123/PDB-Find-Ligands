@@ -1,0 +1,39 @@
+HETATM    1  N   ILE A 306      36.466  18.909  39.113  1.00 28.97      H    N  
+HETATM    2  CA  ILE A 306      37.345  18.588  37.987  1.00 30.55      H    C  
+HETATM    3  C   ILE A 306      38.598  19.428  38.356  1.00 29.87      H    C  
+HETATM    4  O   ILE A 306      38.544  20.570  38.729  1.00 24.33      H    O  
+HETATM    5  CB  ILE A 306      36.736  18.831  36.645  1.00 50.82      H    C  
+HETATM    6  CG1 ILE A 306      37.778  19.030  35.527  1.00 51.62      H    C  
+HETATM    7  CG2 ILE A 306      35.904  20.110  36.648  1.00 48.05      H    C  
+HETATM    8  CD1 ILE A 306      38.310  17.689  34.954  1.00 60.12      H    C  
+HETATM    9  H   ILE A 306      36.463  19.713  39.438  1.00 35.16      H    H  
+HETATM   10  HA  ILE A 306      37.544  17.676  37.880  1.00 37.05      H    H  
+HETATM   11  HB  ILE A 306      36.222  18.064  36.478  1.00 61.38      H    H  
+HETATM   12 HG12 ILE A 306      37.383  19.521  34.831  1.00 62.34      H    H  
+HETATM   13 HG13 ILE A 306      38.501  19.520  35.872  1.00 62.34      H    H  
+HETATM   14 HG21 ILE A 306      35.265  20.066  37.335  1.00 58.05      H    H  
+HETATM   15 HG22 ILE A 306      36.466  20.849  36.790  1.00 58.05      H    H  
+HETATM   16 HG23 ILE A 306      35.469  20.203  35.821  1.00 58.05      H    H  
+HETATM   17 HD11 ILE A 306      38.623  17.151  35.657  1.00 72.54      H    H  
+HETATM   18 HD12 ILE A 306      39.012  17.861  34.355  1.00 72.54      H    H  
+HETATM   19 HD13 ILE A 306      37.617  17.244  34.504  1.00 72.54      H    H  
+CONECT    1    2    9
+CONECT    2    1    3    5   10
+CONECT    3    2    4
+CONECT    4    3
+CONECT    5    2    6    7   11
+CONECT    6    5    8   12   13
+CONECT    7    5   14   15   16
+CONECT    8    6   17   18   19
+CONECT    9    1
+CONECT   10    2
+CONECT   11    5
+CONECT   12    6
+CONECT   13    6
+CONECT   14    7
+CONECT   15    7
+CONECT   16    7
+CONECT   17    8
+CONECT   18    8
+CONECT   19    8
+END

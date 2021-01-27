@@ -1,16 +1,16 @@
-HETATM    1  CA  FLC A 302      33.321  37.624  23.650  1.00 38.90      C    C  
-HETATM    2  CAC FLC A 302      34.341  36.681  23.009  1.00 36.96      C    C  
-HETATM    3  OA1 FLC A 302      34.144  35.461  22.879  1.00 27.22      C    O  
-HETATM    4  OA2 FLC A 302      35.410  37.188  22.615  1.00 36.87      C    O  
-HETATM    5  CB  FLC A 302      31.886  37.079  23.772  1.00 40.28      C    C  
-HETATM    6  CBC FLC A 302      31.423  37.248  25.181  1.00 45.26      C    C  
-HETATM    7  OB1 FLC A 302      31.272  36.158  25.769  1.00 55.85      C    O  
-HETATM    8  OB2 FLC A 302      31.194  38.389  25.652  1.00 38.63      C    O  
-HETATM    9  CG  FLC A 302      30.869  37.732  22.840  1.00 41.70      C    C  
-HETATM   10  CGC FLC A 302      29.559  36.941  22.830  1.00 41.62      C    C  
-HETATM   11  OG1 FLC A 302      28.948  36.869  23.907  1.00 35.95      C    O  
-HETATM   12  OG2 FLC A 302      29.105  36.417  21.777  1.00 33.25      C    O  
-HETATM   13  OHB FLC A 302      31.741  35.679  23.593  1.00 46.48      C    O  
+HETATM    1  CA  FLC A 302      33.322  37.624  23.649  1.00 38.90      C    C  
+HETATM    2  CAC FLC A 302      34.342  36.682  23.008  1.00 36.96      C    C  
+HETATM    3  OA1 FLC A 302      34.144  35.462  22.879  1.00 27.22      C    O  
+HETATM    4  OA2 FLC A 302      35.410  37.189  22.614  1.00 36.87      C    O  
+HETATM    5  CB  FLC A 302      31.887  37.079  23.772  1.00 40.28      C    C  
+HETATM    6  CBC FLC A 302      31.423  37.248  25.180  1.00 45.26      C    C  
+HETATM    7  OB1 FLC A 302      31.273  36.159  25.768  1.00 55.85      C    O  
+HETATM    8  OB2 FLC A 302      31.195  38.390  25.652  1.00 38.63      C    O  
+HETATM    9  CG  FLC A 302      30.869  37.733  22.839  1.00 41.70      C    C  
+HETATM   10  CGC FLC A 302      29.560  36.942  22.829  1.00 41.62      C    C  
+HETATM   11  OG1 FLC A 302      28.949  36.870  23.907  1.00 35.95      C    O  
+HETATM   12  OG2 FLC A 302      29.106  36.418  21.776  1.00 33.25      C    O  
+HETATM   13  OHB FLC A 302      31.742  35.680  23.592  1.00 46.48      C    O  
 CONECT    1    5    2
 CONECT    2    1    3    4
 CONECT    3    2

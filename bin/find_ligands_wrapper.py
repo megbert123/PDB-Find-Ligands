@@ -18,6 +18,7 @@ import sys
 import json
 import time
 import pickle
+import wget
 import pandas as pd
 import numpy as np
 import multiprocessing as mp
@@ -36,38 +37,44 @@ from get_smiles import get_SMILES_queue
 MAKE_PSE = os.path.join(sys.path[0], 'align_ligs_pse.py')
 PKL2CSV = os.path.join(sys.path[0], 'pkl2csv.py')
 
+def create_dir(dir_name):
+    try:
+        os.stat(dir_name)
+        exists = True
+    except:
+        os.mkdir(dir_name)
+        exists = False
+    return exists
+
+
+
 class SimilarLigands:
     
     def __init__(self, pdb, chain, save_dir, mw_filter, similarity):
-        self.pdb = pdb
+        self.pdb = pdb.upper()
         self.chain = chain
         self.save_dir = save_dir
         self.similarity = similarity
         self.mw_filter = mw_filter
         
         # Get Similar PDBs
+        self.fasta_file = self.get_fasta()
+        self.mmseq_file = self.run_mmseq()
         self.sim_list = self.pdb_get_similars()
-        self.pdb_list = list(set([x.split('.')[0] for x in self.sim_list]))
+        self.pdb_list = list(set([x.split('_')[0] for x in self.sim_list]))
         print(self.pdb_list)
                 
         # Get Ligands for similar PDBs
         self.lig_dir = os.path.join(self.save_dir, 'ligands')
-        try:
-            os.stat(self.lig_dir)
-        except:
-            os.mkdir(self.lig_dir)
+        create_dir(self.lig_dir)
         self.lig_dict = self.get_ligands_thread()
         self.ligand_list = list(set([x for y in [z['ligand_ids'] for z in self.lig_dict] for x in y]))
-        print(self.ligand_list)
 
         # Get Smiles for ligands
         self.smiles_dir = os.path.join(self.save_dir, 'smiles')
-        try:
-            os.stat(self.smiles_dir)
-        except:
-            os.mkdir(self.smiles_dir)
+        create_dir(self.smiles_dir)
         self.smiles_dict = self.get_smiles_thread()    
-        
+
         # Combine info to get relevant ligands for alignment
         self.sim_ligs, self.pdb_ligs_dict = self.combine()
         print(pd.DataFrame.from_dict(self.pdb_ligs_dict))
@@ -76,18 +83,72 @@ class SimilarLigands:
         self.unique_dict = self.filter_table()
         
 
-    # Get similar PDBS
+    # Download FASTA seq from PDB
+    def get_fasta(self):
+        url = 'https://www.rcsb.org/fasta/entry/{}/download'.format(self.pdb)
+        fasta_file = os.path.join(self.save_dir, '{}.fasta'.format(self.pdb))
+        urllib.request.urlretrieve(url, fasta_file)
+
+        with open(fasta_file, 'r') as f:
+            f = f.readlines()
+    
+        #header_idx = int([idx for idx, line in enumerate(f) if line.startswith('>') and '|Chain {}|'.format(self.chain) in line][0])
+        #header_idx = int([idx for idx, line in enumerate(f) if line.startswith('>') and self.chain in line.split('|')[1].remove('Chain')][0])
+        for idx, line in enumerate(f):
+            if line.startswith('>'):
+                subject = line.split('|')[1]
+                subject = subject.split(' ')[1]
+                print(subject)
+                if self.chain in subject:
+                    header_idx = idx
+                    break
+
+        chain_fasta = f[header_idx]
+        for line in f[header_idx+1:]:
+            if line.startswith('>') == False:
+                chain_fasta += line
+            elif line.startswith('>') == True:
+                break
+
+        chain_fasta_file = os.path.join(self.save_dir, '{}.{}.fasta'.format(self.pdb, self.chain))
+        with open(chain_fasta_file, 'w') as f_out:
+            f_out.write(chain_fasta)
+        return chain_fasta_file
+
+    # Run mmseq to find PDBs with similar sequences
+    def run_mmseq(self):
+       
+        # Create mmseq PDB database (if not already in existence)
+        pdb_database = os.path.join(os.path.split(self.save_dir)[0], 'PDB_database', 'pdb')
+        db_exists = create_dir(os.path.split(pdb_database)[0])
+        if db_exists == False:
+            os.chdir(os.path.split(self.save_dir)[0])
+            cmd = ['mmseqs', 'databases', 'PDB', pdb_database, 'tmp']
+            check_call(cmd)
+
+        # Search FASTA seq against PDB database
+        os.chdir(self.save_dir)
+        aln_res_file = '{}.{}.alnRes.m8'.format(self.pdb, self.chain)
+        cmd = ['mmseqs', 'easy-search', self.fasta_file, pdb_database, aln_res_file, 'tmp']
+        check_call(cmd)
+        return aln_res_file
+
+
+    # Get similar PDBS (need a new code here to analyze the mmseqs result
     def pdb_get_similars(self):
-        pdb_chain = self.pdb + '.' + self.chain
-        url = 'http://www.rcsb.org/pdb/rest/sequenceCluster?cluster=%d&structureId=%s' % (self.similarity, pdb_chain)
-        req = urllib.request.Request(url)
-        f = urllib.request.urlopen(req)
-        result = f.read()
-        root = ET.fromstring(result)
-        sim_list = []    
-        for pdbchain in root.iter('pdbChain'):
-            sim_list.append(pdbchain.attrib['name'])    
-        return sim_list
+        
+        # mmseq file has tab separated 12 columns: (0) Query ID, (1) PDB ID (2) sequence identity [0-1], 
+        # (3) alignment length, (4) number of mismatches, (5) number of gap openings, (6-7, 8-9) domain start and end-position in query and in target,
+        # (10) E-value, and (11) bit score.
+        with open(self.mmseq_file, 'r') as f:
+            f = f.readlines()
+        pdb_list = []
+        for line in f:
+            line = line.split('\t')
+            if float(line[2]) >= self.similarity:
+                pdb_list.append(line[1].upper())
+        return pdb_list
+
     
     # Get ligands for similar pdbs
     def get_ligands_thread(self):
@@ -106,8 +167,7 @@ class SimilarLigands:
         pdb_ligs_dict = []
         
         for entry in self.sim_list:
-            pdb = entry.split('.')[0]
-            chain = entry.split('.')[1]
+            pdb, chain = entry.split('_')
             pdb_lig_info = [x for x in self.lig_dict if x['pdb'].upper() == pdb.upper()][0]
             for l in pdb_lig_info['ligand_ids']:
                 if chain in pdb_lig_info['ligand_chains'][l]:
@@ -160,16 +220,13 @@ if __name__ == "__main__":
     parser.add_argument('chain')
     parser.add_argument('--save_dir', required=False, default = os.getcwd())
     parser.add_argument('--mw_filter', required=False, default=100, help="Ligands with MW < XX Da will be filtered out")
-    parser.add_argument('--sequence_similarity', required=False, default=90, help="PDBs with SS > XX % will be considered")
+    parser.add_argument('--sequence_similarity', required=False, default=0.9, help="PDBs with SS > XX*100 % will be considered, Enter # between 0 and 1")
     args = parser.parse_args()
     
     ## Make a directory to deposit results
     save_dir = os.path.join(args.save_dir, '{}_{}'.format(args.pdb, args.chain))
-    try:
-        os.stat(save_dir)
-    except:
-        os.mkdir(save_dir)
-    
+    create_dir(save_dir)
+
     # Find the similar ligands
     s = SimilarLigands(args.pdb, args.chain, save_dir, args.mw_filter, args.sequence_similarity)
 

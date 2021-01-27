@@ -1,0 +1,39 @@
+HETATM    1  N   PHA B 308      45.479  20.518  32.626  1.00 30.04      T    N  
+HETATM    2  CA  PHA B 308      45.068  20.140  31.306  1.00 43.67      T    C  
+HETATM    3  C   PHA B 308      45.254  18.654  31.147  1.00 43.25      T    C  
+HETATM    4  O   PHA B 308      46.287  18.235  30.755  1.00 34.87      T    O  
+HETATM    5  CB  PHA B 308      46.015  20.907  30.378  1.00 50.01      T    C  
+HETATM    6  CG  PHA B 308      45.836  22.450  30.470  1.00 50.80      T    C  
+HETATM    7  CD1 PHA B 308      46.638  23.211  31.319  1.00 43.02      T    C  
+HETATM    8  CD2 PHA B 308      44.854  23.061  29.683  1.00 34.71      T    C  
+HETATM    9  CE1 PHA B 308      46.468  24.598  31.388  1.00 45.26      T    C  
+HETATM   10  CE2 PHA B 308      44.683  24.443  29.754  1.00 43.10      T    C  
+HETATM   11  CZ  PHA B 308      45.488  25.210  30.603  1.00 44.74      T    C  
+HETATM   12  HA  PHA B 308      44.168  20.335  31.122  1.00 52.79      T    H  
+HETATM   13  HB2 PHA B 308      45.854  20.637  29.493  1.00 60.40      T    H  
+HETATM   14  HB3 PHA B 308      46.900  20.692  30.606  1.00 60.40      T    H  
+HETATM   15  HD1 PHA B 308      47.286  22.797  31.841  1.00 52.01      T    H  
+HETATM   16  HD2 PHA B 308      44.321  22.550  29.118  1.00 42.05      T    H  
+HETATM   17  HE1 PHA B 308      47.003  25.108  31.951  1.00 54.70      T    H  
+HETATM   18  HE2 PHA B 308      44.031  24.856  29.236  1.00 52.11      T    H  
+HETATM   19  HZ  PHA B 308      45.370  26.131  30.645  1.00 54.08      T    H  
+CONECT    1    2
+CONECT    2    1    3    5   12
+CONECT    3    2    4
+CONECT    4    3
+CONECT    5    2    6   13   14
+CONECT    6    5    7    8
+CONECT    7    6    9   15
+CONECT    8    6   10   16
+CONECT    9    7   11   17
+CONECT   10    8   11   18
+CONECT   11    9   10   19
+CONECT   12    2
+CONECT   13    5
+CONECT   14    5
+CONECT   15    7
+CONECT   16    8
+CONECT   17    9
+CONECT   18   10
+CONECT   19   11
+END

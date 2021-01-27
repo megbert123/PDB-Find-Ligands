@@ -1,6 +1,6 @@
 HEADER    HYDROLASE                               09-FEB-06   2DE8              
-TITLE     CRYSTAL STRUCTURE OF PORCINE PANCREATIC ELASTASE WITH A               
-TITLE    2 UNIQUE CONFORMATION INDUCED BY TRIS                                  
+TITLE     CRYSTAL STRUCTURE OF PORCINE PANCREATIC ELASTASE WITH A UNIQUE        
+TITLE    2 CONFORMATION INDUCED BY TRIS                                         
 COMPND    MOL_ID: 1;                                                            
 COMPND   2 MOLECULE: ELASTASE-1;                                                
 COMPND   3 CHAIN: A;                                                            
@@ -13,25 +13,27 @@ SOURCE   5 TISSUE: PANCREAS
 KEYWDS    NATIVE STRUCURE, SERINE PROTEASE, HYDROLASE                           
 EXPDTA    X-RAY DIFFRACTION                                                     
 AUTHOR    T.KINOSHITA,T.TADA                                                    
+REVDAT   3   09-SEP-20 2DE8    1       REMARK                                   
 REVDAT   2   24-FEB-09 2DE8    1       VERSN                                    
 REVDAT   1   11-JUL-06 2DE8    0                                                
 JRNL        AUTH   T.KINOSHITA,A.YAMAGUCHI,T.TADA                               
-JRNL        TITL   TRIS(HYDROXYMETHYL)AMINOMETHANE INDUCES                      
-JRNL        TITL 2 CONFORMATIONAL CHANGE AND CRYSTAL-PACKING                    
-JRNL        TITL 3 CONTRACTION OF PORCINE PANCREATIC ELASTASE.                  
+JRNL        TITL   TRIS(HYDROXYMETHYL)AMINOMETHANE INDUCES CONFORMATIONAL       
+JRNL        TITL 2 CHANGE AND CRYSTAL-PACKING CONTRACTION OF PORCINE PANCREATIC 
+JRNL        TITL 3 ELASTASE.                                                    
 JRNL        REF    ACTA CRYSTALLOGR.,SECT.F      V.  62   623 2006              
 JRNL        REFN                   ESSN 1744-3091                               
 JRNL        PMID   16820677                                                     
 JRNL        DOI    10.1107/S1744309106023001                                    
-REMARK   1                                                                      
 REMARK   2                                                                      
 REMARK   2 RESOLUTION.    1.50 ANGSTROMS.                                       
 REMARK   3                                                                      
 REMARK   3 REFINEMENT.                                                          
 REMARK   3   PROGRAM     : CNX                                                  
 REMARK   3   AUTHORS     : BRUNGER,ADAMS,CLORE,DELANO,GROS,GROSSE-              
-REMARK   3               : KUNSTLEVE,JIANG,KUSZEWSKI,NILGES, PANNU,             
-REMARK   3               : READ,RICE,SIMONSON,WARREN                            
+REMARK   3               : KUNSTLEVE,JIANG,KUSZEWSKI,NILGES,PANNU,              
+REMARK   3               : READ,RICE,SIMONSON,WARREN,ACCELRYS                   
+REMARK   3               : SOFTWARE INC.(BADGER,BERARD,KUMAR,SZALMA,            
+REMARK   3               : YIP,DZAKULA)                                         
 REMARK   3                                                                      
 REMARK   3  DATA USED IN REFINEMENT.                                            
 REMARK   3   RESOLUTION RANGE HIGH (ANGSTROMS) : 1.50                           
@@ -45,7 +47,7 @@ REMARK   3
 REMARK   3  FIT TO DATA USED IN REFINEMENT.                                     
 REMARK   3   CROSS-VALIDATION METHOD          : NULL                            
 REMARK   3   FREE R VALUE TEST SET SELECTION  : RANDOM                          
-REMARK   3   R VALUE     (WORKING + TEST SET) : NULL                            
+REMARK   3   R VALUE     (WORKING + TEST SET) : 0.223                           
 REMARK   3   R VALUE            (WORKING SET) : 0.223                           
 REMARK   3   FREE R VALUE                     : 0.246                           
 REMARK   3   FREE R VALUE TEST SET SIZE   (%) : NULL                            
@@ -120,13 +122,19 @@ REMARK   3   BSOL        : NULL
 REMARK   3                                                                      
 REMARK   3  NCS MODEL : NULL                                                    
 REMARK   3                                                                      
+REMARK   3  NCS RESTRAINTS.                         RMS   SIGMA/WEIGHT          
+REMARK   3   GROUP  1  POSITIONAL            (A) : NULL  ; NULL                 
+REMARK   3   GROUP  1  B-FACTOR           (A**2) : NULL  ; NULL                 
+REMARK   3                                                                      
+REMARK   3  PARAMETER FILE  1  : NULL                                           
+REMARK   3  TOPOLOGY FILE  1   : NULL                                           
 REMARK   3                                                                      
 REMARK   3  OTHER REFINEMENT REMARKS: NULL                                      
 REMARK   4                                                                      
-REMARK   4 2DE8 COMPLIES WITH FORMAT V. 3.15, 01-DEC-08                         
+REMARK   4 2DE8 COMPLIES WITH FORMAT V. 3.30, 13-JUL-11                         
 REMARK 100                                                                      
-REMARK 100 THIS ENTRY HAS BEEN PROCESSED BY PDBJ ON 15-FEB-06.                  
-REMARK 100 THE RCSB ID CODE IS RCSB025313.                                      
+REMARK 100 THIS ENTRY HAS BEEN PROCESSED BY PDBJ ON 14-FEB-06.                  
+REMARK 100 THE DEPOSITION ID IS D_1000025313.                                   
 REMARK 200                                                                      
 REMARK 200 EXPERIMENTAL DETAILS                                                 
 REMARK 200  EXPERIMENT TYPE                : X-RAY DIFFRACTION                  
@@ -306,30 +314,16 @@ REMARK 500 (M=MODEL NUMBER; RES=RESIDUE NAME; C=CHAIN IDENTIFIER;
 REMARK 500 SSEQ=SEQUENCE NUMBER; I=INSERTION CODE).                             
 REMARK 500                                                                      
 REMARK 500  M RES CSSEQI        RMS     TYPE                                    
-REMARK 500    ARG A 136         0.14    SIDE_CHAIN                              
-REMARK 500    ARG A 218         0.12    SIDE_CHAIN                              
+REMARK 500    ARG A 136         0.14    SIDE CHAIN                              
+REMARK 500    ARG A 218         0.12    SIDE CHAIN                              
 REMARK 500                                                                      
 REMARK 500 REMARK: NULL                                                         
-REMARK 525                                                                      
-REMARK 525 SOLVENT                                                              
-REMARK 525                                                                      
-REMARK 525 THE SOLVENT MOLECULES HAVE CHAIN IDENTIFIERS THAT                    
-REMARK 525 INDICATE THE POLYMER CHAIN WITH WHICH THEY ARE MOST                  
-REMARK 525 CLOSELY ASSOCIATED. THE REMARK LISTS ALL THE SOLVENT                 
-REMARK 525 MOLECULES WHICH ARE MORE THAN 5A AWAY FROM THE                       
-REMARK 525 NEAREST POLYMER CHAIN (M = MODEL NUMBER;                             
-REMARK 525 RES=RESIDUE NAME; C=CHAIN IDENTIFIER; SSEQ=SEQUENCE                  
-REMARK 525 NUMBER; I=INSERTION CODE):                                           
-REMARK 525                                                                      
-REMARK 525  M RES CSSEQI                                                        
-REMARK 525    HOH A 680        DISTANCE =  5.92 ANGSTROMS                       
-REMARK 525    HOH A 685        DISTANCE =  6.44 ANGSTROMS                       
-REMARK 525    HOH A 731        DISTANCE =  6.77 ANGSTROMS                       
 REMARK 800                                                                      
 REMARK 800 SITE                                                                 
 REMARK 800 SITE_IDENTIFIER: AC1                                                 
 REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
 REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE CL A 501                  
+REMARK 800                                                                      
 REMARK 800 SITE_IDENTIFIER: AC2                                                 
 REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
 REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE TRS A 502                 
@@ -2482,5 +2476,5 @@ CONECT 1829 1825
 CONECT 1830 1826                                                                
 CONECT 1831 1827                                                                
 CONECT 1832 1828                                                                
-MASTER      314    0    2    4   15    0    3    6 2067    1   16   19          
+MASTER      307    0    2    4   15    0    3    6 2067    1   16   19          
 END                                                                             

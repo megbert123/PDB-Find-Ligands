@@ -28,14 +28,17 @@ SOURCE  14 EXPRESSION_SYSTEM_TAXID: 562
 KEYWDS    APOPTOSIS                                                             
 EXPDTA    X-RAY DIFFRACTION                                                     
 AUTHOR    S.KIM,M.J.KWAK,B.-H.OH,B.E.CORREIA,P.GAINZA                           
+REVDAT   2   24-JUN-20 6IWB    1       JRNL                                     
 REVDAT   1   11-DEC-19 6IWB    0                                                
-JRNL        AUTH   E.GIORDANO-ATTIANESE,P.GAINZA,E.GRAY-GAILLARD,E.CRIBIOLI,    
-JRNL        AUTH 2 S.SHUI,S.KIM,M.-J.KWAK,S.VOLLERS,A.OSORIO,P.REICHENBACH,     
-JRNL        AUTH 3 J.BONNET,B.-H.OH,M.IRVING,G.COUKOS,B.E.CORREIA               
-JRNL        TITL   COMPUTATIONALLY DESIGNED STOP-CAR DISRUPTED BY SMALL         
-JRNL        TITL 2 MOLECULE CONFERS ON-COMMAND REGULATION OF T-CELL THERAPY     
-JRNL        REF    TO BE PUBLISHED                                              
-JRNL        REFN                                                                
+JRNL        AUTH   G.GIORDANO-ATTIANESE,P.GAINZA,E.GRAY-GAILLARD,E.CRIBIOLI,    
+JRNL        AUTH 2 S.SHUI,S.KIM,M.J.KWAK,S.VOLLERS,A.J.CORRIA OSORIO,           
+JRNL        AUTH 3 P.REICHENBACH,J.BONET,B.H.OH,M.IRVING,G.COUKOS,B.E.CORREIA   
+JRNL        TITL   A COMPUTATIONALLY DESIGNED CHIMERIC ANTIGEN RECEPTOR         
+JRNL        TITL 2 PROVIDES A SMALL-MOLECULE SAFETY SWITCH FOR T-CELL THERAPY.  
+JRNL        REF    NAT.BIOTECHNOL.               V.  38   426 2020              
+JRNL        REFN                   ISSN 1087-0156                               
+JRNL        PMID   32015549                                                     
+JRNL        DOI    10.1038/S41587-019-0403-9                                    
 REMARK   2                                                                      
 REMARK   2 RESOLUTION.    2.50 ANGSTROMS.                                       
 REMARK   3                                                                      

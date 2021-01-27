@@ -1,0 +1,27 @@
+HETATM    1 CL1  O4Q A 304      28.905  18.511  43.154  1.00120.54      F   CL  
+HETATM    2  C24 O4Q A 304      32.454  17.923  39.838  1.00 53.22      F    C  
+HETATM    3  C25 O4Q A 304      31.065  17.265  39.787  1.00 79.99      F    C  
+HETATM    4  C26 O4Q A 304      30.194  18.121  40.738  1.00 98.20      F    C  
+HETATM    5  C27 O4Q A 304      29.709  19.503  40.245  1.00113.60      F    C  
+HETATM    6  C28 O4Q A 304      29.905  17.635  41.948  1.00102.82      F    C  
+HETATM    7  O30 O4Q A 304      32.752  18.748  39.038  1.00 34.85      F    O  
+HETATM    8 H251 O4Q A 304      31.108  16.376  40.086  1.00 96.38      F    H  
+HETATM    9 H252 O4Q A 304      30.720  17.285  38.913  1.00 96.38      F    H  
+HETATM   10 H271 O4Q A 304      29.859  19.577  39.321  1.00136.71      F    H  
+HETATM   11 H272 O4Q A 304      30.182  20.179  40.693  1.00136.71      F    H  
+HETATM   12 H273 O4Q A 304      28.791  19.594  40.421  1.00136.71      F    H  
+HETATM   13 H281 O4Q A 304      30.239  16.798  42.178  1.00123.78      F    H  
+CONECT    1    6
+CONECT    2    3    7
+CONECT    3    2    8    9    4
+CONECT    4    3    5    6
+CONECT    5    4   10   11   12
+CONECT    6    4    1   13
+CONECT    7    2
+CONECT    8    3
+CONECT    9    3
+CONECT   10    5
+CONECT   11    5
+CONECT   12    5
+CONECT   13    6
+END
