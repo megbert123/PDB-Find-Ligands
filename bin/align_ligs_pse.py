@@ -10,7 +10,6 @@ import argparse
 from pymol import cmd
 import os
 import json
-import pandas as pd
 
 
 parser = argparse.ArgumentParser()
