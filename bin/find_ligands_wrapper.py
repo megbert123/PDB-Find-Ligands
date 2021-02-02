@@ -225,7 +225,7 @@ if __name__ == "__main__":
     create_dir(save_dir)
 
     # Find the similar ligands
-    s = SimilarLigands(args.pdb, args.chain, save_dir, args.mw_filter, args.sequence_similarity)
+    s = SimilarLigands(args.pdb, args.chain, save_dir, args.mw_filter, float(args.sequence_similarity))
 
     sl_file = os.path.join(save_dir, 'sim_pdb_chain_ligs.txt')
     with open(sl_file, 'w') as sl_out:

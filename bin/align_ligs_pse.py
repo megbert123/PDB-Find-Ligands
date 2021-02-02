@@ -32,6 +32,8 @@ with open(args.pdb_chain_lig_file, 'r') as align_ligs:
     align_ligs = align_ligs.readlines()
     align_ligs = sorted(align_ligs)
 
+print(align_ligs)
+
 ligand_list = []
 for pcl in align_ligs:
     print(pcl)
